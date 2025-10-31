@@ -6,11 +6,7 @@ parsed_data = json.loads(json_data)  # Преобразуем JSON-строку 
 print(parsed_data["name"])  # Выведет: Иван
 
 
-data = {
-    "name": "Мария",
-    "age": 25,
-    "is_student": True
-}
+data = {"name": "Мария", "age": 25, "is_student": True}
 
 json_string = json.dumps(data, indent=4)  # Преобразуем Python-объект в JSON-строку
 print(json_string)

@@ -1,14 +1,14 @@
 from typing import TypedDict
 
-from httpx import Response
-
 from clients.api_client import APIClient
+from httpx import Response
 
 
 class GetExercisesQueryDict(TypedDict):
     """
     Описание структуры запроса на получение списка заданий.
     """
+
     courseId: str
 
 
@@ -16,6 +16,7 @@ class CreateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на создание задания.
     """
+
     title: str
     courseId: str
     maxScore: int
@@ -29,6 +30,7 @@ class UpdateExerciseRequestDict(TypedDict):
     """
     Описание структуры запроса на обновление задания.
     """
+
     title: str | None
     maxScore: int | None
     minScore: int | None

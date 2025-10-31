@@ -6,7 +6,7 @@ payload = {
     "password": "string",
     "lastName": "string",
     "firstName": "string",
-    "middleName": "string"
+    "middleName": "string",
 }
 response = httpx.post("http://localhost:8000/api/v1/users", json=payload)
 

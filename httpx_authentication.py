@@ -1,10 +1,7 @@
 import httpx  # Импортируем библиотеку HTTPX
 
 # Данные для входа в систему
-login_payload = {
-    "email": "user@example.com",
-    "password": "string"
-}
+login_payload = {"email": "user@example.com", "password": "string"}
 
 # Выполняем запрос на аутентификацию
 login_response = httpx.post("http://localhost:8000/api/v1/authentication/login", json=login_payload)
@@ -15,9 +12,7 @@ print("Login response:", login_response_data)
 print("Status Code:", login_response.status_code)
 
 # Формируем payload для обновления токена
-refresh_payload = {
-    "refreshToken": login_response_data["token"]["refreshToken"]
-}
+refresh_payload = {"refreshToken": login_response_data["token"]["refreshToken"]}
 
 # Выполняем запрос на обновление токена
 refresh_response = httpx.post("http://localhost:8000/api/v1/authentication/refresh", json=refresh_payload)

@@ -6,7 +6,7 @@ def server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # Привязываем его к адресу и порту
-    server_address = ('localhost', 12345)
+    server_address = ("localhost", 12345)
     server_socket.bind(server_address)
 
     # Начинаем слушать входящие подключения (максимум 5 в очереди)
@@ -30,5 +30,5 @@ def server():
         client_socket.close()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     server()

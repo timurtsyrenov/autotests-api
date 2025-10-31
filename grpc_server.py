@@ -1,7 +1,6 @@
 from concurrent import futures  # Импорт пула потоков для асинхронного выполнения
 
 import grpc  # Импорт библиотеки gRPC
-
 import user_service_pb2  # Сгенерированные классы для работы с gRPC-сообщениями
 import user_service_pb2_grpc  # Сгенерированный класс для работы с сервисом
 
@@ -12,7 +11,7 @@ class UserServiceServicer(user_service_pb2_grpc.UserServiceServicer):
 
     def GetUser(self, request, context):
         """Метод GetUser обрабатывает входящий запрос"""
-        print(f'Получен запрос к методу GetUser от пользователя: {request.username}')
+        print(f"Получен запрос к методу GetUser от пользователя: {request.username}")
 
         # Формируем и возвращаем ответное сообщение
         return user_service_pb2.GetUserResponse(message=f"Привет, {request.username}!")
@@ -29,7 +28,7 @@ def serve():
     user_service_pb2_grpc.add_UserServiceServicer_to_server(UserServiceServicer(), server)
 
     # Настраиваем сервер для прослушивания порта 50051
-    server.add_insecure_port('[::]:50051')
+    server.add_insecure_port("[::]:50051")
 
     # Запускаем сервер
     server.start()

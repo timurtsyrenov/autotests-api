@@ -1,25 +1,20 @@
 import httpx
 
-
 # Основные функции HTTPX
 # Отправка GET-запроса
 response = httpx.get("https://jsonplaceholder.typicode.com/todos/1")
 
 print(response.status_code)  # 200
-print(response.json())       # {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
+print(response.json())  # {'userId': 1, 'id': 1, 'title': 'delectus aut autem', 'completed': False}
 
 
 # Отправка POST-запроса
-data = {
-    "title": "Новая задача",
-    "completed": False,
-    "userId": 1
-}
+data = {"title": "Новая задача", "completed": False, "userId": 1}
 
 response = httpx.post("https://jsonplaceholder.typicode.com/todos", json=data)
 
 print(response.status_code)  # 201 (Created)
-print(response.json())       # Ответ с созданной записью
+print(response.json())  # Ответ с созданной записью
 
 
 # Отправка данных в application/x-www-form-urlencoded
@@ -44,8 +39,8 @@ params = {"userId": 1}
 
 response = httpx.get("https://jsonplaceholder.typicode.com/todos", params=params)
 
-print(response.url)    # https://jsonplaceholder.typicode.com/todos?userId=1
-print(response.json()) # Фильтрованный список задач
+print(response.url)  # https://jsonplaceholder.typicode.com/todos?userId=1
+print(response.json())  # Фильтрованный список задач
 
 # Отправка файлов
 
@@ -92,4 +87,3 @@ try:
     response = httpx.get("https://httpbin.org/delay/5", timeout=2)
 except httpx.ReadTimeout:
     print("Запрос превысил лимит времени")
-
