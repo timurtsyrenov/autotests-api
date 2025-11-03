@@ -1,5 +1,6 @@
 import uuid
-from pydantic import BaseModel, ConfigDict, Field, EmailStr, HttpUrl, ValidationError
+
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, HttpUrl, ValidationError
 from pydantic.alias_generators import to_camel
 
 
@@ -8,6 +9,7 @@ class FileSchema(BaseModel):
     url: HttpUrl
     filename: str
     directory: str
+
 
 try:
     file = FileSchema(
@@ -31,6 +33,7 @@ class UserSchema(BaseModel):
     def get_username(self) -> str:
         return f"{self.first_name} {self.last_name}"
 
+
 class CourseSchema(BaseModel):
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
@@ -44,6 +47,7 @@ class CourseSchema(BaseModel):
     estimated_time: str = Field(default="2 weeks")
     # Вложенный объект для пользователя, создавшего курс
     created_by_user: UserSchema = Field(alias="createdByUser")
+
 
 # course1 = CourseSchema()
 # course2 = CourseSchema()
@@ -65,14 +69,10 @@ course_default_model = CourseSchema(
     ),
     estimatedTime="1 week",
     createdByUser=UserSchema(
-        id="user-id",
-        email="user@gmail.com",
-        lastName="Bond",
-        firstName="Zara",
-        middleName="Alise"
-    )
+        id="user-id", email="user@gmail.com", lastName="Bond", firstName="Zara", middleName="Alise"
+    ),
 )
-print('Course default model:', course_default_model)
+print("Course default model:", course_default_model)
 
 
 course_dict = {
@@ -81,23 +81,18 @@ course_dict = {
     "maxScore": 100,
     "minScore": 10,
     "description": "Playwright",
-    "previewFile": {
-        "id": "file-id",
-        "url": "http://localhost:8000",
-        "filename": "file.png",
-        "directory": "courses"
-    },
+    "previewFile": {"id": "file-id", "url": "http://localhost:8000", "filename": "file.png", "directory": "courses"},
     "estimatedTime": "1 week",
     "createdByUser": {
         "id": "user-id",
         "email": "user@gmail.com",
         "lastName": "Bond",
         "firstName": "Zara",
-        "middleName": "Alise"
-    }
+        "middleName": "Alise",
+    },
 }
 course_dict_model = CourseSchema(**course_dict)
-print('Course dict model:', course_dict_model)
+print("Course dict model:", course_dict_model)
 
 
 course_json = """
@@ -124,7 +119,7 @@ course_json = """
 }
 """
 course_json_model = CourseSchema.model_validate_json(course_json)
-print('Course JSON model:', course_json_model)
+print("Course JSON model:", course_json_model)
 print(course_json_model.model_dump_json(by_alias=True))
 
 # пример распаковки json файла
@@ -135,4 +130,3 @@ print(course_json_model.model_dump_json(by_alias=True))
 #
 # course_model = CourseSchema.model_validate_json(course_data)
 # print(course_model)
-

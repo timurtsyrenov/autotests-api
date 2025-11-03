@@ -15,6 +15,7 @@ class UserSchema(BaseModel):
         first_name (str): Имя пользователя. JSON-ключ — "firstName".
         middle_name (str): Отчество пользователя. JSON-ключ — "middleName".
     """
+
     id: str
     email: EmailStr
     last_name: str = Field(alias="lastName")
@@ -35,6 +36,7 @@ class CreateUserRequestSchema(BaseModel):
         first_name (str): Имя пользователя. JSON-ключ — "firstName".
         middle_name (str): Отчество пользователя. JSON-ключ — "middleName".
     """
+
     email: EmailStr
     password: str
     last_name: str = Field(alias="lastName")
@@ -51,4 +53,5 @@ class CreateUserResponseSchema(BaseModel):
     Attributes:
         user (UserSchema): Объект пользователя с данными профиля.
     """
+
     user: UserSchema
