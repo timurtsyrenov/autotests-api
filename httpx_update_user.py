@@ -1,8 +1,8 @@
 import httpx
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 create_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
@@ -19,7 +19,7 @@ print("Login data:", login_response_data)
 
 
 update_user_headers = {"Authorization": f"Bearer {login_response_data['token']['accessToken']}"}
-update_user_payload = {"email": get_random_email(), "lastName": "string", "firstName": "string", "middleName": "string"}
+update_user_payload = {"email": fake.email(), "lastName": "string", "firstName": "string", "middleName": "string"}
 update_user_response = httpx.patch(
     f"http://localhost:8000/api/v1/users/{create_user_response_data['user']['id']}",
     json=update_user_payload,

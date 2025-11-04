@@ -1,20 +1,10 @@
-from jsonschema import validate, ValidationError
+from jsonschema import ValidationError, validate
 
 # Пример схемы
-schema = {
-  "type": "object",
-  "properties": {
-    "name": { "type": "string" },
-    "age": { "type": "number" }
-  },
-  "required": ["name"]
-}
+schema = {"type": "object", "properties": {"name": {"type": "string"}, "age": {"type": "number"}}, "required": ["name"]}
 
 # Пример данных
-data = {
-  "name": "John Doe",
-  "age": 30
-}
+data = {"name": "John Doe", "age": 30}
 
 try:
     validate(instance=data, schema=schema)
