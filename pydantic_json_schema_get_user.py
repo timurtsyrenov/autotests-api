@@ -28,6 +28,3 @@ get_user_response_schema = GetUserResponseSchema.model_json_schema()
 
 # Проверяем, что JSON-ответ от API соответствует ожидаемой JSON-схеме
 validate_json_schema(instance=get_user_response.json(), schema=get_user_response_schema)
-
-print(get_user_response.json())
-print(get_user_response_schema)
