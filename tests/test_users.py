@@ -13,19 +13,11 @@ from tools.fakers import fake
 
 @pytest.mark.users
 @pytest.mark.regression
-@pytest.mark.parametrize(
-    "email",
-    [
-        fake.email(domain="mail.ru"),
-        fake.email(domain="gmail.ru"),
-        fake.email(domain="example.ru"),
-    ],
-    ids=["mail.ru", "gmail.ru", "example.ru"],
-)
+@pytest.mark.parametrize("email", ["mail.ru", "gmail.com", "example.com"])
 def test_create_user(email: str, public_users_client: PublicUsersClient):
 
     # Формируем тело запроса на создание пользователя
-    request = CreateUserRequestSchema(email=email)
+    request = CreateUserRequestSchema(email=fake.email(domain=email))
     # Отправляем запрос на создание пользователя
     response = public_users_client.create_user_api(request)
     # Инициализируем модель ответа на основе полученного JSON в ответе
