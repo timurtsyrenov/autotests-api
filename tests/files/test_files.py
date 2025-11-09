@@ -89,8 +89,6 @@ class TestFiles:
         response = files_client.get_file_api("incorrect-file-id")
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
-        print(response_data)
-
         # Проверка, что код ответа соответствует ожиданиям (422 - Unprocessable Entity)
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         # Проверка, что ответ API соответствует ожидаемой валидационной ошибке
