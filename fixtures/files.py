@@ -1,9 +1,8 @@
 import pytest
-from pydantic import BaseModel
-
-from clients.files.files_client import get_files_client, FilesClient
+from clients.files.files_client import FilesClient, get_files_client
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
 from fixtures.users import UserFixture
+from pydantic import BaseModel
 
 
 class FileFixture(BaseModel):

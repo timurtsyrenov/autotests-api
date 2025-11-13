@@ -10,9 +10,8 @@ class AuthenticationUserSchema(BaseModel):  # Структура данных п
     email: str
     password: str
 
-    model_config = {
-        "frozen": True
-    }
+    model_config = {"frozen": True}
+
 
 # Создаем private builder
 @lru_cache(maxsize=None)

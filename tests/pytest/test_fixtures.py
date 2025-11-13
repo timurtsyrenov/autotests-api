@@ -8,19 +8,19 @@ def send_analytics_data():
 
 
 # Фикстура для инициализации настроек автотестов на уровне сессии
-@pytest.fixture(scope='session')
+@pytest.fixture(scope="session")
 def settings():
     print("[SESSION] Инициализируем настройки автотестов")
 
 
 # Фикстура для создания данных пользователя, которая будет выполняться один раз на класс тестов
-@pytest.fixture(scope='class')
+@pytest.fixture(scope="class")
 def user():
     print("[CLASS] Создаем данные пользователя один раз на тестовый класс")
 
 
 # Фикстура для инициализации API клиента, выполняющаяся для каждого теста
-@pytest.fixture(scope='function')
+@pytest.fixture(scope="function")
 def users_client():
     print("[FUNCTION] Создаем API клиент на каждый автотест")
 
