@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e3b841ec-8a54-4dd9-822f-83ffcae2864c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA3OjM4OjE3LjMzNzEwNyIsInVzZXJfaWQiOiJkNzQxMmU4Zi01OWY3LTQ4NjktYjJjOS1jMGFhZTEzNGI3MjMifQ.fzckBJNH_igdA_ycXHJWd_-63rw3Y6yyuYqo5LBDMoc' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting decide computer exactly once success.","maxScore":53,"minScore":27,"description":"Record card goal our. Card around him reveal present history attack.\nActually play attention time keep level. Catch truth dog trial of religious. Arrive quality section though drive under.","estimatedTime":"4 weeks"}'

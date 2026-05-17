@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA3OjM4OjIxLjk4NTE5MyIsInVzZXJfaWQiOiIxODQ4NzE4Yy0wY2U4LTRiY2EtOGU0Mi1kODMwNzlkOGJmZTcifQ.4qZLWayM9FbSDlCpykmfGDsvZ3prOlJxzWX-sACafIk' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Let commercial especially.","maxScore":68,"minScore":24,"description":"Within Republican stage leg season property. Watch small grow product. Practice get eat hope. Make side reduce sport by stuff.\nTravel explain prevent develop. Win ask weight explain.","estimatedTime":"4 weeks","previewFileId":"d3f9d33a-488a-4ad9-b486-93bdeb142887","createdByUserId":"1848718c-0ce8-4bca-8e42-d83079d8bfe7"}'

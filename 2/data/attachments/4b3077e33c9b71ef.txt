@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/dac82cd5-d264-4c93-88c9-15bf2045b2ff' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA3OjM4OjE5Ljk4ODU1MCIsInVzZXJfaWQiOiIzODY1NzIwZC0xYzk0LTQwZWMtODZkYi1lOWJlY2M4OTZjNWIifQ.haUnmN5N_PF3cAmofFPiBFLWrjPzJb8wPjwkSRuOly4' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blue friend occur administration sea.","maxScore":93,"minScore":2,"orderIndex":67,"description":"Color lose prepare check suggest since. Family open risk idea agreement consider high. Avoid challenge cold worry a type computer.\nSkill town majority. Main always ok particular for.","estimatedTime":"5 weeks"}'

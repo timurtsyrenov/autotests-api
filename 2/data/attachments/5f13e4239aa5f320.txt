@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA3OjM4OjE4LjY4NTE1MyIsInVzZXJfaWQiOiIyNWU2NmJiMi04NjZiLTRhZmEtYjRiMS1iOTM5YWUwYjA4NGIifQ.xED2G2vSETGPa91ODKlpX0RLPXGP7klVHpNS7sQPOrk' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent network people.","maxScore":60,"minScore":24,"description":"Discover commercial southern production make stuff. Class particularly network leave different. Finally social success.","estimatedTime":"4 weeks","previewFileId":"819ec1b2-15fb-42c1-bc8a-f6d3414e6aae","createdByUserId":"25e66bb2-866b-4afa-b4b1-b939ae0b084b"}'

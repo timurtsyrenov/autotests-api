@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA3OjM4OjE5LjMzNjUyNSIsInVzZXJfaWQiOiIxYTc3MjNlNi03MDk0LTQyOTAtOGU3YS1kYmU3NGFkNmFhNzQifQ.-CHXyFR_H6oybKHklak0qW6VCUiuIUaG9Bur1gF-9WA' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simply image carry TV new cost.","courseId":"36247f6a-65fd-4dc1-b219-e13650c52422","maxScore":61,"minScore":26,"orderIndex":78,"description":"Next role across sell approach. Daughter dark age.\nStrategy specific assume woman. Of woman statement region will. Happy you individual feeling life five.","estimatedTime":"7 weeks"}'
