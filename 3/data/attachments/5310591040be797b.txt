@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA4OjQyOjExLjgxNzI1MyIsInVzZXJfaWQiOiJkOTY4NTM2Mi0zYTEwLTRiMDQtOTZhYy1mM2YwMjYzMTNmYjIifQ.7MxrhvNhpHvUZOoqjui3C0QLlIgDoA_mK7SS--uw9RM' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wind watch say discuss current pass.","maxScore":94,"minScore":17,"description":"Expert save property fast. Certain able message yeah into cut organization. Beautiful push staff war. Us staff food sing learn north.","estimatedTime":"5 weeks","previewFileId":"af09ebff-6c2d-4c58-b324-367701a481a0","createdByUserId":"d9685362-3a10-4b04-96ac-f3f026313fb2"}'
