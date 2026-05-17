@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ac56b441-3128-4cef-938d-74cde436aba0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA5OjM2OjExLjY3OTQ1NCIsInVzZXJfaWQiOiJmNGU1NDVkOC1iNGJkLTRlY2MtOTZmNS1mNGM5YWM4Y2I5YjkifQ.MJ3Rm6oOhConTu4vqV3S8VvE2muL8nj9k4gpQpOqgY8' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like let raise fund however material amount.","maxScore":52,"minScore":3,"description":"It how different little special firm in special. Machine sign our white herself hundred. Structure claim particular indicate.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA5OjM2OjE2LjQ0NzQ3MiIsInVzZXJfaWQiOiJlOGFkMzFiMi1jZDYxLTRlMzctYWIyOS03YjlmNmE4OTNhNDUifQ.0UohExmm1j4fu2DA7IL36fCT36Rvr8-XH3n7cVSYpdY' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Take strategy high others evidence.","maxScore":52,"minScore":17,"description":"Its job protect age drive. Fall third similar market without respond reason. Wind while land support standard challenge necessary quality.","estimatedTime":"7 weeks","previewFileId":"b2b4f01c-1276-4095-b983-05e48e0e027a","createdByUserId":"e8ad31b2-cd61-4e37-ab29-7b9f6a893a45"}'

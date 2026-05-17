@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA5OjM2OjExLjY3OTQ1NCIsInVzZXJfaWQiOiJmNGU1NDVkOC1iNGJkLTRlY2MtOTZmNS1mNGM5YWM4Y2I5YjkifQ.MJ3Rm6oOhConTu4vqV3S8VvE2muL8nj9k4gpQpOqgY8' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song debate once however majority individual child necessary.","maxScore":59,"minScore":28,"description":"Positive candidate it health about. North better these concern industry fast rate. Again agency catch behavior treat. Admit perform number laugh activity discussion.","estimatedTime":"5 weeks","previewFileId":"5d502a01-fb7a-4307-83b2-cf8976c59d43","createdByUserId":"f4e545d8-b4bd-4ecc-96f5-f4c9ac8cb9b9"}'

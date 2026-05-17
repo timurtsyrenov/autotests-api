@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA5OjM2OjE1LjA5Nzk0NiIsInVzZXJfaWQiOiI3MmZmMDk5YS1kZGY2LTRlMzMtYTNkYS1mZDk5MDU2MzQwNzcifQ.i-LSaZjdBhfSBK44IAmiGQbKXSI0wV0xoZPsEZ71x6A' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Section news window chair work.","maxScore":59,"minScore":13,"description":"Note law serious be law so. Type outside that cup enough maintain truth doctor. Brother difficult employee executive really fund only. List six just oil social beyond style.","estimatedTime":"5 weeks","previewFileId":"1b2ede66-a74f-4778-a7c1-532344c098e4","createdByUserId":"72ff099a-ddf6-4e33-a3da-fd9905634077"}'

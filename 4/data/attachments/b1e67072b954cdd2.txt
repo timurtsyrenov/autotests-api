@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA5OjM2OjEzLjcyNjIzNyIsInVzZXJfaWQiOiIwMmY2YjJlYy0yZWU5LTQyNjMtODE5Zi1iMmQ3ZDY4MzJlZDYifQ.YIa8Up88bc5EuimC3rSZU92DAEbcWw6Tmr7cX75GzQU' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Report mind in.","maxScore":95,"minScore":21,"description":"Election kid threat family. Air American remain religious attorney full move. Recognize support mention fund measure.\nServe size few really. Hand respond challenge watch.","estimatedTime":"4 weeks","previewFileId":"a3f9ff71-9073-4e3b-9d69-7dbf872b96e0","createdByUserId":"02f6b2ec-2ee9-4263-819f-b2d7d6832ed6"}'

@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=a7c6c6ae-8c4f-4c96-9e63-a2b4e58b4f31
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=a7c6c6ae-8c4f-4c96-9e63-a2b4e58b4f31
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:114 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:64 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 5b1b93d9-9283-4b35-af80-7a0b1996d1c2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Pass several difficult recognize film none never.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to a7c6c6ae-8c4f-4c96-9e63-a2b4e58b4f31
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 59
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Gun reach toward building he budget identify. Local because window amount free. Weight seven day name.
+Decade attention peace wrong remain. Yes then perhaps behavior mother law money.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

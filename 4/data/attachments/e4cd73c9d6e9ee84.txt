@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTE3VDA5OjM2OjE1Ljc5Mzc4NyIsInVzZXJfaWQiOiIzZWM1MDAyZi1iYjU1LTRlMjQtYTJmOC1mMjY4M2E3YTM4MGQifQ.vNeaXBwl22iWV1hWiJVWehc4yHiY2XWCUh_aBBumW8Y' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"More range wide attention team.","maxScore":97,"minScore":14,"description":"Hospital design late report although reduce. Computer enough call. Newspaper fund kid sort travel better responsibility. Turn bank military color.","estimatedTime":"8 weeks","previewFileId":"d5e6f8e8-01a2-4b66-be7d-514a6aba68e5","createdByUserId":"3ec5002f-bb55-4e24-a2f8-f2683a7a380d"}'
