@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA1OjU3Ljg5MDExNSIsInVzZXJfaWQiOiIwZGMyNTg2Yi0yZjdjLTRiMGYtOTQ0Yy04NDEwMmZmMWI5NzkifQ.1kac0kVO8--ATQcmc_cEX27WbWajE0xu1GL6foQBvW0' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Second media away.","maxScore":90,"minScore":9,"description":"Defense impact admit loss avoid star should animal. Garden night certain change collection responsibility. Plant fall body painting however open form.","estimatedTime":"4 weeks","previewFileId":"9576343a-48db-4cc3-9490-c80c971e3f61","createdByUserId":"0dc2586b-2f7c-4b0f-944c-84102ff1b979"}'

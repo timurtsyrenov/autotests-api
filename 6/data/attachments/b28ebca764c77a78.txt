@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA1OjU5LjE2MDE5OCIsInVzZXJfaWQiOiJjMmI4M2NiYi01NjNmLTRlNGMtYmE2OC1lMzdiMzczMDE0ZWMifQ.I0WWwk66JUMXywwAnmiPikJPHeXzhbeDQJanxZ6Vxdo' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management cover meet say reality environment.","maxScore":51,"minScore":7,"description":"College Mrs address five. Growth inside everything recognize behavior. Concern significant later eye woman. Speak response leg newspaper she.","estimatedTime":"9 weeks","previewFileId":"8427f824-3666-49da-a87f-d5f98d37380e","createdByUserId":"c2b83cbb-563f-4e4c-ba68-e37b373014ec"}'

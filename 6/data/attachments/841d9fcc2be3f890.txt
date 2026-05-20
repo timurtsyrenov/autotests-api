@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA2OjAwLjM0NzA2OSIsInVzZXJfaWQiOiIzZTc2ODRkMC00NjRiLTRmMTEtOGRlNy1hMDIzM2FkMWE0ODQifQ.lMV02Z0uSrGbi0i-HxvTwbjpuhPDb6Xh26C8C_M5CY8' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song continue include discover.","maxScore":95,"minScore":13,"description":"Truth nothing gun head within. Probably bad off certainly. Shake power piece response drive.\nWest security each fly no history.","estimatedTime":"2 weeks","previewFileId":"dcde7f10-bfae-4aa5-8b7e-b54522c8ed1f","createdByUserId":"3e7684d0-464b-4f11-8de7-a0233ad1a484"}'

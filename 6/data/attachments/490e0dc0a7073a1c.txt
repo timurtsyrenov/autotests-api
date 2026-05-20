@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA2OjAyLjc0MDgxOSIsInVzZXJfaWQiOiI3MTM4YWZjMS1iYzhlLTRmNTAtYWIyNy0wODA2OWIyNGMyYzgifQ.aqLSlWeIYGbOFjNgjoW3K8z9cOrXJKCgR6ObvRQoKQU' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Conference good quickly care color attack leg.","maxScore":85,"minScore":5,"description":"Southern letter help safe raise key both. Any people need nor answer child. House sense structure country happy American lay.","estimatedTime":"4 weeks","previewFileId":"41530714-db32-4097-9370-e5b80955e054","createdByUserId":"7138afc1-bc8e-4f50-ab27-08069b24c2c8"}'

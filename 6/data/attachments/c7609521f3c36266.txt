@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA2OjAxLjU0OTA5NCIsInVzZXJfaWQiOiJjMDczZWZjNy04MTYwLTRlZjctOGU2Yi04NWU1YTUxNmE5NzkifQ.KplDgcMZx6XVIyPIasJYeqkOvbR2g9OIgvRuhpGPGpI' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Place whom bring heart.","maxScore":72,"minScore":10,"description":"Only media professor tax ask rest. Kind space expect.","estimatedTime":"7 weeks","previewFileId":"03eece88-621d-4da2-9451-c61be7cb25d6","createdByUserId":"c073efc7-8160-4ef7-8e6b-85e5a516a979"}'

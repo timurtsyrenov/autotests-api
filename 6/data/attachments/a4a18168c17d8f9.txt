@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA2OjAwLjYyMTY5NSIsInVzZXJfaWQiOiJlNDYwZWFlNS0wZGQyLTRiYzctODUwYi1iYWNiNDc4MWM5M2QifQ.ZZ51jsSPpTy7WT61wNA2ZAbY8b9NU40BsbVkRZ4TFww' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Program thing mouth enjoy art room and.","courseId":"869ce872-4c38-4bab-b85a-3ad773e9acbd","maxScore":87,"minScore":1,"orderIndex":58,"description":"If exist visit smile.\nThat check Congress improve view. Able various level test term office local. Detail product onto economy just seat return.","estimatedTime":"7 weeks"}'

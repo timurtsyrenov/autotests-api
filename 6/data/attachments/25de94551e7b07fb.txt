@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/558702b5-cd3e-443f-a4be-f81f875acd98' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA1OjU3Ljg5MDExNSIsInVzZXJfaWQiOiIwZGMyNTg2Yi0yZjdjLTRiMGYtOTQ0Yy04NDEwMmZmMWI5NzkifQ.1kac0kVO8--ATQcmc_cEX27WbWajE0xu1GL6foQBvW0' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Soon nor wish low final.","maxScore":63,"minScore":27,"description":"Bed establish sure take strategy animal mind. How small house listen candidate wonder sing.\nCentral leader age model participant. College record former memory capital. Clear improve not power whom.","estimatedTime":"2 weeks"}'

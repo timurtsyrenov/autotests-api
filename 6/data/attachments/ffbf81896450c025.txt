@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjA2OjAxLjgyMzIwMiIsInVzZXJfaWQiOiJmZDc2NjQ0OC1mMDZlLTRlNzQtOGRlNC01ZGY5NTMyNTM5ZjUifQ.rncly33lFp5ko14m0pJb1kiz6LThF5Gx0blJ3p416D8' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Could sing arrive.","maxScore":84,"minScore":21,"description":"Eight price conference capital beautiful. Idea enjoy evening concern audience. Treat contain decade smile close consumer.","estimatedTime":"2 weeks","previewFileId":"88ba3126-43e8-4849-a8df-391590ef138b","createdByUserId":"fd766448-f06e-4e74-8de4-5df9532539f5"}'
