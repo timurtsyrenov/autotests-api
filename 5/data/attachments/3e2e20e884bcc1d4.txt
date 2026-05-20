@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ5LjA1NzQzNiIsInVzZXJfaWQiOiJlMTY3YzJmMi1hOGI5LTRkYzEtYWM3ZC05YmIwYWExZmNlMjUifQ.uKRCeLDU8jzXSLEI8UhOL29CRqKwZqqpWpIzo81lGpo' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Floor join participant history bill attention anything ball.","maxScore":53,"minScore":14,"description":"College knowledge everyone per mission maybe. Feel choose story poor gas often about end.\nNotice treatment road her pick find. Or woman their drug prevent purpose.","estimatedTime":"8 weeks","previewFileId":"e06a64c1-3784-4557-bc2e-5defe5d4173a","createdByUserId":"e167c2f2-a8b9-4dc1-ac7d-9bb0aa1fce25"}'

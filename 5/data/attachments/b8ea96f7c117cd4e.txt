@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ3LjcwNTk3NiIsInVzZXJfaWQiOiI1NWQ2MmIwMy1iYWQxLTRkNGYtODJhYS03ZTlhNzViNTViMDAifQ.sbflNbEFCVXzxH77u0SCLM1JAU6XqdAeyzt2tfB0r3k' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"On use over dark husband west time.","maxScore":63,"minScore":17,"description":"Ground of leave idea. Major chance wide station. Could manage want food shake house.","estimatedTime":"10 weeks","previewFileId":"be59ae03-91f0-41c7-841f-7fd9733a452f","createdByUserId":"55d62b03-bad1-4d4f-82aa-7e9a75b55b00"}'

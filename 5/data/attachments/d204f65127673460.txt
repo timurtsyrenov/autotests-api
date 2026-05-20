@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ5LjcwMjExMiIsInVzZXJfaWQiOiIxZjRhYTRjMi1hZjFhLTRmZTYtYjVhOS1mOTM2NGJhYTA0N2UifQ.5q6oiCpY0ZcCKk6vrofRbsnrHqxwaojfzsGKNVvLKJE' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seek none leader ok can.","maxScore":100,"minScore":7,"description":"Seat girl cause page suddenly game. Statement reality certain in. Back father once contain join station.\nItem year three. Job away not actually ahead develop follow.","estimatedTime":"1 weeks","previewFileId":"69dd1c1b-d13f-43e5-9514-4dbcf24499a3","createdByUserId":"1f4aa4c2-af1a-4fe6-b5a9-f9364baa047e"}'

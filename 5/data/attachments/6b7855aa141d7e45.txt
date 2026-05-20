@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ3LjA1MzgyMiIsInVzZXJfaWQiOiJiMmU2ZTExYy1mZTc2LTRmMGUtODMwZC0zY2U5NjhjMWU1NzUifQ.AhdAyItVDSwczu33RGUEHbI5dQwVbQ7G8K_qk5PgzFU' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cold kind start win.","maxScore":80,"minScore":13,"description":"Type project join we local. You if shoulder myself respond identify.\nTurn leader rock west. Dinner home official order network someone.","estimatedTime":"3 weeks","previewFileId":"d5bb20d4-0f26-4482-870b-0d38a08804ec","createdByUserId":"b2e6e11c-fe76-4f0e-830d-3ce968c1e575"}'

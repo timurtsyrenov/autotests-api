@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/51d1c127-1e14-4376-98b7-116a58cefa96' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ1LjAxODA3NSIsInVzZXJfaWQiOiJiOTM1ZjA4MC01ZmNhLTQzMzItYjQ1ZC0yODFjODFhMDc2MTYifQ.VFPQNoZCxqufFTXK9ov8rAXhjVQz420A1F-GTuHna34' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We affect set ball can rest easy break.","maxScore":79,"minScore":12,"description":"Simple beyond matter toward off another ground. Imagine treatment also form president. Car water lawyer alone.\nHospital offer field dark include. East type community.","estimatedTime":"5 weeks"}'

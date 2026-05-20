@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ4LjM2MDQ4NiIsInVzZXJfaWQiOiIwZTk5ZTFiZi0yNjZlLTRkNjQtOWYzZS03NDc1ZGJlMTFhYWUifQ.yGvhRyO-L1imKEtyTrXUJt18x2J8fiycDAWeZ9HwC-U' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dark our daughter laugh.","courseId":"e0b69d28-26f2-4fbc-83e4-cd4c85ca6e7d","maxScore":82,"minScore":24,"orderIndex":9,"description":"Surface mouth pass police. Hotel collection movie guy center. Catch doctor other even respond light.","estimatedTime":"5 weeks"}'

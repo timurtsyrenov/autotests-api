@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ5LjA1NzQzNiIsInVzZXJfaWQiOiJlMTY3YzJmMi1hOGI5LTRkYzEtYWM3ZC05YmIwYWExZmNlMjUifQ.uKRCeLDU8jzXSLEI8UhOL29CRqKwZqqpWpIzo81lGpo' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"View north week born condition raise.","courseId":"ce1c7372-efb2-4bce-867b-9831d5f0d417","maxScore":97,"minScore":3,"orderIndex":91,"description":"Event board action center growth cultural no. Before do painting certainly worry affect court product. Ten national upon value sea society.\nLeave animal chance serious.","estimatedTime":"3 weeks"}'

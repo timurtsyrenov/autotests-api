@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE1OjU0OjQ4LjM2MDQ4NiIsInVzZXJfaWQiOiIwZTk5ZTFiZi0yNjZlLTRkNjQtOWYzZS03NDc1ZGJlMTFhYWUifQ.yGvhRyO-L1imKEtyTrXUJt18x2J8fiycDAWeZ9HwC-U' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shake perhaps program carry short.","maxScore":85,"minScore":19,"description":"Majority you common surface forward despite ground common. Impact person method wonder. Eight although employee always generation.\nToo memory truth provide. Six do child two blue already.","estimatedTime":"7 weeks","previewFileId":"178b652e-22ea-4990-bd5e-e64954e77e2e","createdByUserId":"0e99e1bf-266e-4d64-9f3e-7475dbe11aae"}'
