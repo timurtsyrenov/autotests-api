@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ee625fc6-2e53-4722-8572-10643a19b498' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjAzOjUxLjg0MTgwOSIsInVzZXJfaWQiOiJmMjkyYjNhYS0wYmM1LTQ2MGYtYjE3NS0zMDM0Nzg0ZGQzNmIifQ._Bbff3vav-bK_-wofZXg91rwRJqd_a9JuebkerAv8H8' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead class simply region anything laugh position.","maxScore":99,"minScore":27,"orderIndex":32,"description":"Industry same today heart clearly.\nLess success yeah player. Soon assume hit will lawyer admit positive.\nRead think cut try including among. Organization become or could. Feeling center any recent.","estimatedTime":"2 weeks"}'

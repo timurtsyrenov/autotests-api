@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjAzOjUxLjI1NTIwNiIsInVzZXJfaWQiOiJiMWE5NTIyMC0xYTAyLTQ5ODQtOTc1My05NWFiZDIzYzYwY2UifQ.r0RR-HqGc1AVLqqTuTt0hk9Mqom7Xtn6Itsgo0-G4Pk' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence build month would.","maxScore":88,"minScore":9,"description":"Player everything its appear. Year plant structure mouth.\nMr couple the maybe treat power they. Laugh such box yes necessary song.","estimatedTime":"1 weeks","previewFileId":"b790b9b4-e1ff-47eb-a194-d60433d22c26","createdByUserId":"b1a95220-1a02-4984-9753-95abd23c60ce"}'

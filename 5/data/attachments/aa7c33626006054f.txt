@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/52c1b782-df37-4a8a-9a15-abca83a44f0e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjAzOjQ5LjQ0NDM2MyIsInVzZXJfaWQiOiI0YjZkNTk5Ny04YjMwLTRiZTgtYjdmYy1kMDFiZGViZDhiM2QifQ.oVo8La9ta8hrl8qOs7Gr9Y7jWHC9DJzdyGwDep7CXOQ' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"House hundred try set represent training recently when.","maxScore":67,"minScore":12,"description":"Spend start born spring. Soldier others anything without community card rule her.\nClose culture blood later night challenge. Air owner scene executive.","estimatedTime":"3 weeks"}'

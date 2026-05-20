@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjAzOjUxLjg0MTgwOSIsInVzZXJfaWQiOiJmMjkyYjNhYS0wYmM1LTQ2MGYtYjE3NS0zMDM0Nzg0ZGQzNmIifQ._Bbff3vav-bK_-wofZXg91rwRJqd_a9JuebkerAv8H8' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Guy if political that leg culture.","courseId":"6cb3a107-aaef-4b2b-b508-270570d59c52","maxScore":76,"minScore":26,"orderIndex":10,"description":"Who fly happen person enough. Throw treatment join break time government right product. Choice fast southern reality.\nNecessary executive across rise hear ahead little. Wrong foot other another.","estimatedTime":"7 weeks"}'

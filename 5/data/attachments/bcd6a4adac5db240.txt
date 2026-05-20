@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjAzOjUwLjY3MjAzNCIsInVzZXJfaWQiOiI3N2VlNjQ1Yy05MDIxLTQwODAtYWQ0Zi0xNjFkZWRhZThjNGMifQ.PN5x4sRgnPLoOFzojgQA2PtevlExTe2uBAhgpBg5as4' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer east guess sell quickly.","maxScore":78,"minScore":21,"description":"Mission everybody medical simply order peace loss. Reveal decide another why budget imagine. Authority thousand bag side.","estimatedTime":"2 weeks","previewFileId":"98660329-234b-4fca-869d-cb93850d5b10","createdByUserId":"77ee645c-9021-4080-ad4f-161dedae8c4c"}'

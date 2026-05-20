@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjAzOjUyLjQ2NzU3NiIsInVzZXJfaWQiOiIzODlmOGVkMi04NTAzLTQ3Y2QtODU3NC1lNzNiZjFmN2JhNzQifQ.6W8daVOGmPPGWIXYTD2lPYCdGWvQN79oHhBnb9vpBqY' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car right around.","maxScore":82,"minScore":1,"description":"Push good meeting early. Some dog figure one father.\nDoctor relate week Congress adult a drug. Wrong across short add change rest.","estimatedTime":"10 weeks","previewFileId":"e87dc3b6-8440-4dc4-804f-82b2c40e26bc","createdByUserId":"389f8ed2-8503-47cd-8574-e73bf1f7ba74"}'

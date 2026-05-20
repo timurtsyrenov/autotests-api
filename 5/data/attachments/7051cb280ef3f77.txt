@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTIwVDE2OjAzOjUzLjY4MTI4MiIsInVzZXJfaWQiOiJiNGU4YjY1ZS00MzJkLTRmZDMtYWE2MC02NjI1ZTA1ZTBjZDIifQ.xFwc6HH7eDsYC0CaNUnMR-MATgMZ1aIbI7ODSo8CQhE' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Record relationship large allow pass adult.","courseId":"7ba6ff6a-0922-438b-a9c9-544f692c4104","maxScore":85,"minScore":16,"orderIndex":37,"description":"Pm left easy political worry student along. Key company total create. Right one like end police music treat consider.\nAt least hotel both. Bed drug action manager fish.","estimatedTime":"5 weeks"}'
