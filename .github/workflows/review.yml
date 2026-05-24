@@ -56,4 +56,4 @@ jobs:
           LLM__META__MAX_TOKENS: 2000
 
           # Фикс проблемы с парсингом prompt
-          LLM__PROMPT: "{}"
+          PROMPT: "{}"
