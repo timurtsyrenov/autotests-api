@@ -25,10 +25,7 @@ jobs:
 
       # Шаг 2. Запускаем инструмент AI Review
       - name: Run AI Review
-        uses: Nikita-Filonov/ai-review@v0.30.0
-        with:
-          # Команда AI Review, выбранная при запуске (например, run, run-inline, run-summary)
-          review-command: ${{ inputs.review-command }}
+        shell: bash
         env:
           # Владелец репозитория
           VCS__PIPELINE__OWNER: ${{ github.repository_owner }}
@@ -42,8 +39,15 @@ jobs:
           # Встроенный токен GitHub, необходимый для публикации комментариев
           VCS__HTTP_CLIENT__API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-#          # Закастомил запуск GitHub Actions на локальной машине, так как LLM развернута локально
-#          LLM__PROVIDER: OLLAMA
-#          LLM__HTTP_CLIENT__API_URL: http://localhost:11434
-#          LLM__HTTP_CLIENT__API_TOKEN: local
-#          LLM__META__MODEL: qwen2.5-coder:7b
+          # Закастомил запуск GitHub Actions на локальной машине, так как LLM развернута локально
+          LLM__PROVIDER: OLLAMA
+          LLM__HTTP_CLIENT__API_URL: http://localhost:11434
+          LLM__HTTP_CLIENT__API_TOKEN: local
+          LLM__META__MODEL: qwen2.5-coder:7b
+
+        run: |
+          pip install --no-cache-dir xai-review==0.67.0
+      
+          unset PROMPT
+      
+          ai-review run
