@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjUzOjIxLjY4MDk2MCIsInVzZXJfaWQiOiIyZjczNWQyMi1hYjJlLTQ1N2QtYjY3ZC0wMDcwZWY0NDNiYzAifQ.s4V9N97d67rBLfr6COyMs7HZBKkDV-1ZIndmihacye0' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Area civil young represent.","maxScore":91,"minScore":25,"description":"Example evidence after room ball study happen. Assume though same into away late.\nResponsibility skill into foreign recently financial later during. Seat anyone radio feel.","estimatedTime":"3 weeks","previewFileId":"6e3dd421-c498-48eb-ad49-a6b6acde7383","createdByUserId":"2f735d22-ab2e-457d-b67d-0070ef443bc0"}'

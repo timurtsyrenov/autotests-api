@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjUzOjIzLjE2NjE3NSIsInVzZXJfaWQiOiJiNzg0MTA2Ny00MWI1LTQ1NDAtOWZlZS0xNGM1ZjIxMDNhN2IifQ.yrg3UkaKdrcHhVpD1xtSDDDAk1YTlK7LZ6As0YeTEDM' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nice bring through one.","maxScore":90,"minScore":3,"description":"Dream TV fly measure television ability. One perhaps resource once professional soon coach worker. Thought win could television Mr impact couple. Year anything identify thing official toward.","estimatedTime":"6 weeks","previewFileId":"54204a44-c7a9-4c1d-89d6-6def7654ceb3","createdByUserId":"b7841067-41b5-4540-9fee-14c5f2103a7b"}'

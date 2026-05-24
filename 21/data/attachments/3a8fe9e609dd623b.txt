@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjUzOjI2LjE0NzY2OSIsInVzZXJfaWQiOiIzMjk1NmQ3MS0xNWYxLTQ5YjEtYjk1OS1iYmYyZjMzYjI3ZjMifQ.dQ9REPj0dcpkEsdD6hIqC5n3fx4K48JwIqob9ZwdNXs' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large part assume class.","maxScore":53,"minScore":19,"description":"Though reach suggest else fund seem whether. Week for light form individual over treat.\nDown itself could town garden. Business rest body factor identify wear where.","estimatedTime":"1 weeks","previewFileId":"e9983b01-6cf5-4678-87dd-7de02c82c4f5","createdByUserId":"32956d71-15f1-49b1-b959-bbf2f33b27f3"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjUzOjI2LjE0NzY2OSIsInVzZXJfaWQiOiIzMjk1NmQ3MS0xNWYxLTQ5YjEtYjk1OS1iYmYyZjMzYjI3ZjMifQ.dQ9REPj0dcpkEsdD6hIqC5n3fx4K48JwIqob9ZwdNXs' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message recently painting only pick also big.","courseId":"be7a1a1f-4430-41f8-a67d-623792038ad7","maxScore":99,"minScore":24,"orderIndex":44,"description":"Her design somebody. Agent or part garden officer real just. Commercial today and though detail hit three.\nSoon protect would student treat method paper. Ago event on beyond ahead.","estimatedTime":"7 weeks"}'

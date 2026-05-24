@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjUzOjI0LjMzMzUyMCIsInVzZXJfaWQiOiIyOThhYWMyYi0xMDNkLTRhMDItYTU4YS04NDU3NTQ1ZGQyNWMifQ.JjiooTOV4EDUq2nVWhBSYQ-KFfiYcA0InihqtyFFlVk' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Care hard worry issue technology hospital.","maxScore":56,"minScore":12,"description":"Production write approach only. Shake thus scientist. Listen remain standard sea among well create.","estimatedTime":"10 weeks","previewFileId":"e52a6173-6e63-48e5-b7af-8800077db020","createdByUserId":"298aac2b-103d-4a02-a58a-8457545dd25c"}'

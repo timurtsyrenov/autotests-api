@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4588790e-2bc6-48a5-b18f-1e4f6af7f19b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjUzOjIxLjY4MDk2MCIsInVzZXJfaWQiOiIyZjczNWQyMi1hYjJlLTQ1N2QtYjY3ZC0wMDcwZWY0NDNiYzAifQ.s4V9N97d67rBLfr6COyMs7HZBKkDV-1ZIndmihacye0' \
+  -H 'content-length: 213' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bank reality black scene them past.","maxScore":63,"minScore":26,"description":"Use represent third power very various. Thus former since better pretty professional recognize.","estimatedTime":"3 weeks"}'

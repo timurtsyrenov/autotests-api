@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjUzOjIyLjU3ODQzMyIsInVzZXJfaWQiOiI0M2IxMmY4OC05ZDllLTQ3YjEtYTVjNy05NDg4NTUxODU1NmYifQ.JiIicaM47K7j2rVByzHpaQb-FJt2uRwGg0Sz96I8-MY' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment point drug indicate party.","maxScore":95,"minScore":1,"description":"Speech material individual team attack give. Process close course. Offer anyone discussion hair line.","estimatedTime":"4 weeks","previewFileId":"6a55d98d-ca4b-4dce-8d75-52214aa042b3","createdByUserId":"43b12f88-9d9e-47b1-a5c7-94885518556f"}'
