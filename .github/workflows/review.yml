@@ -16,12 +16,17 @@ on:
 
 jobs:
   ai-review:
-    runs-on: self-hosted
+    runs-on: [self-hosted, windows]
     steps:
       # Шаг 1. Клонируем код репозитория
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0  # обязательно! загружаем всю историю, чтобы AI Review мог построить diff
+
+      - name: Debug Ollama
+        shell: powershell
+        run: |
+          curl http://localhost:11434/api/tags
 
       # Шаг 2. Запускаем инструмент AI Review
       - name: Run AI Review
@@ -47,3 +52,5 @@ jobs:
           LLM__HTTP_CLIENT__API_URL: http://localhost:11434
           LLM__HTTP_CLIENT__API_TOKEN: local
           LLM__META__MODEL: qwen2.5-coder:7b
+          LLM__META__TEMPERATURE: 0.2
+          LLM__META__MAX_TOKENS: 2000
