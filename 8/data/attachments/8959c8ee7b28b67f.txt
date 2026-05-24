@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQ1OjMzLjkzMjE0NSIsInVzZXJfaWQiOiI2NDg0YjIyZC0zZGYwLTRjNWQtYjZlNS1hMzY0MzRlYjQzZTkifQ.FWogjEemCxW1xOSUoiyocdoNEB3grVd9CbmmXAGLSag' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pretty worker present while would.","maxScore":75,"minScore":16,"description":"Without him again range couple language physical. Military hospital dog beyond machine.\nPower fill soon sit. Tell few short key go a mouth magazine. Else since add financial large serious especially.","estimatedTime":"8 weeks","previewFileId":"20bc3e61-88d0-4c38-a884-e0f4e3647031","createdByUserId":"6484b22d-3df0-4c5d-b6e5-a36434eb43e9"}'

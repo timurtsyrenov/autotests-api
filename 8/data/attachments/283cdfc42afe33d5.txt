@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQ1OjM1LjA3NTU3NiIsInVzZXJfaWQiOiJhNDU1Yjg4MS00OTQ5LTRhYmItYjY5OS1hNmQ2Njk4NTBkMmYifQ.a6UguQNVVQAoviegJDtguidS3nukBy4uqnQ38bvMF28' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Probably truth return word agree.","courseId":"d9dfdcca-ba44-44bc-8519-418729a15e7d","maxScore":67,"minScore":28,"orderIndex":75,"description":"Approach should part its. About will court somebody. Class Mrs evidence budget push artist sound relationship.\nAnother happy agent. Matter now factor ok.\nAway to discover. Call interesting mind.","estimatedTime":"2 weeks"}'

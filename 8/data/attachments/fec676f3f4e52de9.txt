@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQ1OjMzLjM4MTI4OSIsInVzZXJfaWQiOiI2YTIzYjU0MC0xZDMyLTRhZWMtYWEwNy0yZWE0NGRkZDVkOWUifQ.GKi2XaVxVsnYShrV0rwgaNrV0PZPVPW1olCBvlu_b08' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Season necessary network into.","maxScore":51,"minScore":20,"description":"Amount maybe a. Leg ok watch office turn. Who shake key him result just. Involve agree piece wife common total international.\nConsumer painting total easy. Per same indeed alone.","estimatedTime":"5 weeks","previewFileId":"7741905c-42a2-429f-bca2-428ee703c72d","createdByUserId":"6a23b540-1d32-4aec-aa07-2ea44ddd5d9e"}'

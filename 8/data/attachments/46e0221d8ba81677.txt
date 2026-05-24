@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQ1OjMxLjcyMjY1OCIsInVzZXJfaWQiOiIwZDRhY2VkZS01Y2E4LTQ0NWYtYWNmZi1iOGJkYjI5MjYxYjkifQ.zAcNunkPkx8fSx4MMo-r7yzbso2VwsfJ2S70BiN56qQ' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question his have fear.","maxScore":83,"minScore":15,"description":"Tree those value fine direction. Return lose million bit research pay resource similar.\nPush day too fly. Concern born business fight fund network personal.","estimatedTime":"4 weeks","previewFileId":"615d0a56-d2fa-4d59-b5d4-9ddaa36a3dee","createdByUserId":"0d4acede-5ca8-445f-acff-b8bdb29261b9"}'

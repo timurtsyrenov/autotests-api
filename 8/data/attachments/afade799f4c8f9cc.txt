@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQ1OjM0LjUyNzY2NiIsInVzZXJfaWQiOiJiNGI1OGNlNS01MWNlLTQzZjYtYWM4YS05NTBlMTQ3NTA4ZTgifQ.GBkoXRZMYQ3MQuJLZD70c1bZFayOrToN5WV9rUu0jQ4' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Himself compare final million law see condition.","courseId":"102ae111-eca8-4e45-87c6-b8ea4b0e7f5d","maxScore":64,"minScore":30,"orderIndex":57,"description":"Change indicate itself drive less. Short child analysis knowledge listen great happy. Now half carry feeling.","estimatedTime":"4 weeks"}'

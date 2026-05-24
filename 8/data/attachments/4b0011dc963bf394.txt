@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/92cbd2bc-8264-4501-b72f-d69f0c863fd0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQ1OjMwLjg4MjMwMSIsInVzZXJfaWQiOiIzZGNmNDNiNS1iMjNlLTRkNjktOTdhZS1mOWQ4ZDExMWFhODEifQ.Xk7osJde7VA2sjgU1ayGrFtwMEGif9kw5dnNegxhYjQ' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Management bit develop author.","maxScore":93,"minScore":25,"description":"Sea religious increase sense admit. Sport condition high man.\nSouth door management explain nature. College understand evening buy particularly future. School marriage exactly.","estimatedTime":"9 weeks"}'
