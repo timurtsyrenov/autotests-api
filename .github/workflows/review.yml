@@ -45,6 +45,7 @@ jobs:
           LLM__HTTP_CLIENT__API_TOKEN: local
           LLM__META__MODEL: qwen2.5-coder:7b
 
+        # Вызываю напрямую из-за ошибки парсинга переменной окружения PROMPT
         run: |
           pip install --no-cache-dir xai-review==0.67.0
       
