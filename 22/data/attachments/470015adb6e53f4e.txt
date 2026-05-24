@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjQ4Ljk5NzY2MSIsInVzZXJfaWQiOiJkMmEyNmQwNi0zYmEyLTQ0MmUtYjhlZi0xN2I5Mjk5MmZkZjgifQ.6r2cntCKpqVpXkn2pr4Rf1PyaTcHBRR3vzep6vx2_nM' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide dinner alone certainly little necessary.","courseId":"23fd9508-a092-44b2-bb0e-f9a0ebdfb48f","maxScore":99,"minScore":13,"orderIndex":56,"description":"Seek alone citizen ever. Nor middle continue sometimes. Information subject sound daughter side quality usually.","estimatedTime":"7 weeks"}'

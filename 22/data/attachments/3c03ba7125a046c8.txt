@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjQ1LjE2ODk1NCIsInVzZXJfaWQiOiIwMmRjMWQ3OC0xOGE1LTQ3MjktYjM1ZS1hMTU4MDA2ODdkZDYifQ.gQUfPigeP2PI7RoMWsVPXHZ3SypW1O14zTuNbPFAqyM' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement old toward security.","maxScore":64,"minScore":8,"description":"Structure mission account culture anyone green author. Training responsibility never. Position rate subject lot generation green leg.","estimatedTime":"2 weeks","previewFileId":"ca10d622-3b7f-432d-921b-53830ab894ab","createdByUserId":"02dc1d78-18a5-4729-b35e-a15800687dd6"}'

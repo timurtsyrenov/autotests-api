@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/13adeefc-c48c-4747-aed4-b8e4a57f21be' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjQ3Ljc5ODMzNiIsInVzZXJfaWQiOiJlNDA0NTQ5Yi1jMTBlLTQ5NGItYjM5Yi1iMjc1YTdhMzJmYjQifQ.r_JcSUrI6qImNAyRuwSwTuaLTzdPUjLQqSpKAMmn-wI' \
+  -H 'content-length: 237' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reason soldier professor stop.","maxScore":66,"minScore":22,"orderIndex":76,"description":"Front board treat apply control there office. Realize month great.\nSouthern as ahead structure truth glass.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjQ4LjM3Mjc3NSIsInVzZXJfaWQiOiI2ZDcxMDJkNS1hMTY4LTQ1MzgtYWJhOC0zNDcyNDljM2Y2MDkifQ.dDGP7FRxdxEXv07EdcMqzxYyPMGbRsKitfX5wZeGZc0' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task beautiful claim give actually.","maxScore":51,"minScore":26,"description":"Old result different field understand include.\nSupport really break police seek. Development professor she guess serious federal.\nAttorney window director inside move.","estimatedTime":"10 weeks","previewFileId":"3ed20428-71ab-4077-ad9a-9eeb7005ac37","createdByUserId":"6d7102d5-a168-4538-aba8-347249c3f609"}'

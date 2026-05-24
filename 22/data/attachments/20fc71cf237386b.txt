@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjQ5LjU3NjQ1NyIsInVzZXJfaWQiOiI4NTNiNzU1Ny04MzBjLTQ4OTgtYTg3NC0xOTY3NzdmMjU4ODcifQ._b6smyU0tQgwzjFeCaOXWxmOGvlo4AatkW_COIBlDow' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"On sing else country quality dream participant.","courseId":"ce734dce-cc5d-4300-93c9-877217e25bb6","maxScore":91,"minScore":5,"orderIndex":60,"description":"Another address after student soldier. Spend again and up quickly nor avoid.\nLife dream discussion arrive provide bit her can. Bag head brother everyone I since find business.","estimatedTime":"9 weeks"}'

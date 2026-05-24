@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7d04a6dc-8048-42ad-b5b9-02fee6c90da1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjQ1LjE2ODk1NCIsInVzZXJfaWQiOiIwMmRjMWQ3OC0xOGE1LTQ3MjktYjM1ZS1hMTU4MDA2ODdkZDYifQ.gQUfPigeP2PI7RoMWsVPXHZ3SypW1O14zTuNbPFAqyM' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Effect watch seem enough manager history.","maxScore":99,"minScore":28,"description":"Bill this another play after certainly middle. Beyond Republican build toward key. Window create discover.\nWould eye chance approach fund.","estimatedTime":"1 weeks"}'
