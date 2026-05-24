@@ -30,10 +30,7 @@ jobs:
 
       # Шаг 2. Запускаем инструмент AI Review
       - name: Run AI Review
-        uses: Nikita-Filonov/ai-review@v0.67.0
-        with:
-          # Команда AI Review, выбранная при запуске (например, run, run-inline, run-summary)
-          review-command: ${{ inputs.review-command }}
+        shell: bash
         env:
           # Владелец репозитория
           VCS__PIPELINE__OWNER: ${{ github.repository_owner }}
@@ -55,5 +52,6 @@ jobs:
           LLM__META__TEMPERATURE: 0.2
           LLM__META__MAX_TOKENS: 2000
 
-          # Фикс проблемы с парсингом prompt
-          PROMPT: "{}"
+        run: |
+          pip install --no-cache-dir xai-review==0.67.0
+          ai-review run
