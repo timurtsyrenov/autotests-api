@@ -54,4 +54,9 @@ jobs:
 
         run: |
           pip install --no-cache-dir xai-review==0.67.0
+
+          for var in $(env | cut -d= -f1 | grep -i prompt); do
+            unset $var
+          done
+
           ai-review run
