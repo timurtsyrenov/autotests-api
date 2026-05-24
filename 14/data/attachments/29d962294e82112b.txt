@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ4LjY2MzY0OSIsInVzZXJfaWQiOiIyMWI3NzM5Yi0yZWIyLTQ1M2YtYTk4MC05OThlYzdjNWM0ZGIifQ.3dnf_6H5XfuZeBvJCfExyhYdlxv3O64NM1Y7UUgYbaw' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Serious argue land as might.","maxScore":64,"minScore":3,"description":"Success rate writer clearly final actually discussion.\nLarge really growth far sea. Act professor word sense positive recognize yes sort.","estimatedTime":"5 weeks","previewFileId":"9a08fa8e-6497-49be-af01-0561f9582669","createdByUserId":"21b7739b-2eb2-453f-a980-998ec7c5c4db"}'

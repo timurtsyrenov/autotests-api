@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjUwLjY2NTE0OCIsInVzZXJfaWQiOiI5YjE3MGEyOC1hMzUwLTQ0YjctYTM2Ni00M2ZmNDUwYTNiNzUifQ.cysqmUHi16gE1w0Z-c1JmR5_n_yi1q7sNMJHEcRIigI' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"New best Republican a population determine many.","maxScore":77,"minScore":4,"description":"Rather coach history medical politics. Gas know trade different. Finish nature break item.\nRaise and course agree common. Trial week conference both.","estimatedTime":"9 weeks","previewFileId":"a01190cc-985b-44e1-a566-6c865e80dd71","createdByUserId":"9b170a28-a350-44b7-a366-43ff450a3b75"}'

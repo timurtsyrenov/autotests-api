@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjUxLjMxNDAwMSIsInVzZXJfaWQiOiJlYzRhOWZhNS03MjI0LTQwZDItYjU4Ni1hYzRkMTVmNTE0YTkifQ.jd8fTcRaviDlWLq8g8KiuDq13IxRwuaFJjALHUg1f64' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean then meeting property.","maxScore":84,"minScore":25,"description":"But method region gun mission attention. Term else decade.\nCourt many always treat. Wear cultural push million find population occur.","estimatedTime":"8 weeks","previewFileId":"333c2f81-2c7b-420d-87b3-b3959dd11385","createdByUserId":"ec4a9fa5-7224-40d2-b586-ac4d15f514a9"}'

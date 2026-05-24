@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ3LjM2NjAwOSIsInVzZXJfaWQiOiJhM2M4MjFlOC1hNzQwLTQ2YTMtYWZiNC1mNGI0YzIyYmY0NzAifQ.2qjdfqHKJAYnEJIr4fBs4l_q6KmGpNR0AL1qBOHtl08' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial small behavior tend.","maxScore":61,"minScore":2,"description":"Weight quality during citizen. Owner explain five understand success happen foreign. Animal leg everyone full low customer.","estimatedTime":"7 weeks","previewFileId":"f6a68823-e0a9-48c9-93d7-8c7fd522df11","createdByUserId":"a3c821e8-a740-46a3-afb4-f4b4c22bf470"}'

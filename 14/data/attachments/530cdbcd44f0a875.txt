@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=aeb6a92e-e9e0-45a1-990a-dfd4f2121e4c
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=aeb6a92e-e9e0-45a1-990a-dfd4f2121e4c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:114 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:64 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to ad58257b-8f04-4820-88d1-0bb30aa2cf08
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Resource environmental large threat thing.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to aeb6a92e-e9e0-45a1-990a-dfd4f2121e4c
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 27
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 20
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to For inside second experience family whether else. Produce age than financial bag though.
+Score seek those book personal. Do move about amount. Other upon executive question anyone.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

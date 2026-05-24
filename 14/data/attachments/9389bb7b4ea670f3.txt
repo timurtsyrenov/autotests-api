@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/677d5819-40ab-444b-a301-2b5ee59ad736' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ5LjMxNTcxNSIsInVzZXJfaWQiOiJlYzdkMTFlNS1hNWVhLTQ5OTEtYTMyZC01NGNkYmY2YTcxYmMifQ.0x0NVtrl7t3Em_axp7AAyzpmapiMUXkYeVSG9jAVl0U' \
+  -H 'content-length: 250' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense follow respond choice.","maxScore":60,"minScore":30,"orderIndex":36,"description":"Picture pay possible four Republican sister course rise. Number child person. Candidate deep character strong voice into.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ5LjMxNTcxNSIsInVzZXJfaWQiOiJlYzdkMTFlNS1hNWVhLTQ5OTEtYTMyZC01NGNkYmY2YTcxYmMifQ.0x0NVtrl7t3Em_axp7AAyzpmapiMUXkYeVSG9jAVl0U' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finally consider police raise.","maxScore":87,"minScore":29,"description":"Must wife church couple stuff. Concern nothing several school let. Do account provide team.\nThreat beyond trade stand dinner property civil police. She wrong realize style.","estimatedTime":"8 weeks","previewFileId":"6f4f0137-92a1-46ec-99cc-61cec7930c0a","createdByUserId":"ec7d11e5-a5ea-4991-a32d-54cdbf6a71bc"}'

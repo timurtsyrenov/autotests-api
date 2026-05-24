@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjUwLjY2NTE0OCIsInVzZXJfaWQiOiI5YjE3MGEyOC1hMzUwLTQ0YjctYTM2Ni00M2ZmNDUwYTNiNzUifQ.cysqmUHi16gE1w0Z-c1JmR5_n_yi1q7sNMJHEcRIigI' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Good water company year offer.","courseId":"b22751e6-0566-487a-b1e6-9cd20dab6ccc","maxScore":81,"minScore":24,"orderIndex":30,"description":"Fight individual thing continue myself life. Well room like blood however partner. Beautiful require big fine field station.\nThing election to produce. Peace society blue president degree.","estimatedTime":"4 weeks"}'

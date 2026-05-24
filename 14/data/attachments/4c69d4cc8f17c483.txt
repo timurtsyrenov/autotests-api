@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ4LjY2MzY0OSIsInVzZXJfaWQiOiIyMWI3NzM5Yi0yZWIyLTQ1M2YtYTk4MC05OThlYzdjNWM0ZGIifQ.3dnf_6H5XfuZeBvJCfExyhYdlxv3O64NM1Y7UUgYbaw' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Imagine people girl.","courseId":"2f04b7aa-e8e3-4167-8682-0fbc95d061ec","maxScore":97,"minScore":13,"orderIndex":26,"description":"Whatever year budget sometimes. Attorney hit door tend none establish.\nPartner term nothing people prevent.\nResearch offer western under music final billion. Event run court. Impact break pay affect.","estimatedTime":"1 weeks"}'

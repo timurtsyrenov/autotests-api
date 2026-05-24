@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ2LjM3NDk1NyIsInVzZXJfaWQiOiI1YzM3YWU2NS1jZjliLTRjNDAtOWQ1Yi04NDcwYmExMzczZDkifQ.ZUMb62pAEj4gfUtDd2BbF9Ax-v0iHr0n_PU-ifmOoe8' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feeling policy expert live property.","maxScore":60,"minScore":29,"description":"Western source Democrat development set free. Woman radio natural firm unit particularly parent.\nInto interesting instead husband. Power ready production road.","estimatedTime":"7 weeks","previewFileId":"7805bb66-f9bf-4474-a0c5-5ed63933d33b","createdByUserId":"5c37ae65-cf9b-4c40-9d5b-8470ba1373d9"}'

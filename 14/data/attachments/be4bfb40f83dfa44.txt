@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:82 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Summer of various ground state agreement success.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 87
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 15
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Central apply themselves dinner court. Receive style owner college. Two development fire gas bit poor.
+Officer material finish concern. News option PM. There eye simply study miss card miss reach.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 2530435e-c28e-484a-a0ef-ef421652f71e
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 452d2eb8-f2dc-4bbd-835e-80e1d6da12d3
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

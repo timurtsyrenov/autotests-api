@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ5LjMxNTcxNSIsInVzZXJfaWQiOiJlYzdkMTFlNS1hNWVhLTQ5OTEtYTMyZC01NGNkYmY2YTcxYmMifQ.0x0NVtrl7t3Em_axp7AAyzpmapiMUXkYeVSG9jAVl0U' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light dog sign try knowledge brother hotel employee.","courseId":"2f37a775-0153-48f9-b905-1516a1d4375e","maxScore":88,"minScore":13,"orderIndex":67,"description":"Power defense language new structure. Step late soon inside same kind middle. Want per population. Enter help team better single.\nAgreement old attorney. Who phone change federal message wish.","estimatedTime":"9 weeks"}'

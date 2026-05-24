@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d97c7612-dab8-4097-90d9-ee35103e0f0d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjIyOjQ2LjM3NDk1NyIsInVzZXJfaWQiOiI1YzM3YWU2NS1jZjliLTRjNDAtOWQ1Yi04NDcwYmExMzczZDkifQ.ZUMb62pAEj4gfUtDd2BbF9Ax-v0iHr0n_PU-ifmOoe8' \
+  -H 'content-length: 228' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One brother class morning both book.","maxScore":90,"minScore":21,"description":"During effect yet question gun impact. Mrs manage doctor nothing from key. West herself toward start society.","estimatedTime":"2 weeks"}'
