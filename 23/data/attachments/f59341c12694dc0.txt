@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjU4LjUyMTkxMyIsInVzZXJfaWQiOiI5ZDQyODQ4MS05MTNlLTRiM2MtOTlkOC03OGI5YTQwYjM1MWYifQ.RORxxJ6G0OhJmw0w5bIjlCE6PyOk8X2WiCMaYDRchlY' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Benefit television people magazine.","maxScore":82,"minScore":17,"description":"North between education share peace rest require. Structure one night stand. Prove since hear your north national see brother. How end ahead society.","estimatedTime":"3 weeks","previewFileId":"e5be2bc7-4ab9-4563-805c-e8b60d8c0f81","createdByUserId":"9d428481-913e-4b3c-99d8-78b9a40b351f"}'

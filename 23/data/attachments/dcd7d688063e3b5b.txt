@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ddaf0015-834a-47f7-bede-85189ea01889' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjU4LjUyMTkxMyIsInVzZXJfaWQiOiI5ZDQyODQ4MS05MTNlLTRiM2MtOTlkOC03OGI5YTQwYjM1MWYifQ.RORxxJ6G0OhJmw0w5bIjlCE6PyOk8X2WiCMaYDRchlY' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Respond camera against senior power firm mother.","maxScore":94,"minScore":30,"description":"Nearly region phone remember nature hundred. Success development treat process no. Travel get state ball task individual. Operation resource sell begin necessary indeed series agreement.","estimatedTime":"2 weeks"}'

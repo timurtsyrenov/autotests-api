@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjE0OjAyLjQ4MTEwNyIsInVzZXJfaWQiOiJmNzc0Y2M0Ny0wZjJjLTRmNzAtOThjYi0wYzNkM2RmYzgyMGIifQ.Oe4Pw-ps44FX5YrOsVlr6qp2Ta5x3XHwfHVEPeedgcE' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rate worker sort police technology building government.","courseId":"b13bbadb-c3c5-48a0-a13c-c5aad373f838","maxScore":81,"minScore":19,"orderIndex":14,"description":"Sometimes whether half truth. Plant notice crime message.\nRole morning sell to family nothing. Treatment shake baby charge out behavior. West risk step finally.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjE0OjAwLjgxMjk2MiIsInVzZXJfaWQiOiJiZDA0ZDc2Zi0yZGEwLTRjY2MtODY2ZC00ZWM1Njc0MzAxN2QifQ.Y7TyX7kKEQ0giik1ye57kz6NIYVZ67LRN8Qqt04yAz8' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr PM evidence make whom under dream.","courseId":"76b5eab5-d092-460c-9f3e-91cd5c5d08d2","maxScore":98,"minScore":13,"orderIndex":10,"description":"Why born happy store staff. Question push truth window table share method.\nMind old real Congress during. Pull throughout soldier. Positive later end prove.","estimatedTime":"6 weeks"}'

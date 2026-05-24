@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjE0OjAxLjc4MjMyOSIsInVzZXJfaWQiOiI3YjAzMmZjNC01MmU0LTQ3M2EtOWY0NC1iZWUwYzFhNjIyOTQifQ.g-AHcYGEg-k9ib0Q6u9a3-40bLpWe6GKvR6yvPt9LJU' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Face support with figure do.","maxScore":62,"minScore":24,"description":"Husband not early while Democrat. Gas best around color. Western group country song whose crime analysis.\nFine heart age future play rule. Human him child realize.","estimatedTime":"7 weeks","previewFileId":"c1c69a21-b6ed-4807-91dc-298b35c4fbd6","createdByUserId":"7b032fc4-52e4-473a-9f44-bee0c1a62294"}'

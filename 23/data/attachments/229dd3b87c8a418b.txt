@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjEzOjU5LjUxNzgyOCIsInVzZXJfaWQiOiIxZWExNDdmOC1iMTk5LTQ4NmMtYTMzOC1hMzkwZTJiYzQ5MWMifQ.ktQicJTeF9hd408FwZOw6prhdQkxaVVUbAHHOoKiaWY' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score find great else beat result resource.","maxScore":70,"minScore":20,"description":"Product Congress single determine deep sort. Another you such involve. Daughter him under letter possible certain. Husband participant you own thus.","estimatedTime":"4 weeks","previewFileId":"e19f39f6-1738-419e-be24-1de7093cf933","createdByUserId":"1ea147f8-b199-486c-a338-a390e2bc491c"}'

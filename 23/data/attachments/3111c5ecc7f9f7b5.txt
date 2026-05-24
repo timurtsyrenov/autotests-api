@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjE0OjAzLjEyNzU0MCIsInVzZXJfaWQiOiIzOGE2ZjQ4Ni1kY2E1LTRiOWMtYWU1Ny1iZDliODU4NjBlOGQifQ.11ovCrjKFyCSDVr3Y-7KSxQVLFOm_CRYeyEWnOsRATg' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expect account health ever dream production.","maxScore":90,"minScore":29,"description":"Might recent true cup. Source away majority structure everyone learn single.\nIts measure business Mr statement fast. Street sure turn forget represent language evening soldier.","estimatedTime":"10 weeks","previewFileId":"71aea9b7-ab2a-46d1-9f21-041616bee73b","createdByUserId":"38a6f486-dca5-4b9c-ae57-bd9b85860e8d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDE0OjE0OjAyLjQ4MTEwNyIsInVzZXJfaWQiOiJmNzc0Y2M0Ny0wZjJjLTRmNzAtOThjYi0wYzNkM2RmYzgyMGIifQ.Oe4Pw-ps44FX5YrOsVlr6qp2Ta5x3XHwfHVEPeedgcE' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sing onto west than big rest time.","maxScore":83,"minScore":11,"description":"Teacher central worker budget. Offer civil understand force. Full song thus environmental.\nTable PM region ahead level during. Such store computer responsibility federal. Argue up child course try.","estimatedTime":"3 weeks","previewFileId":"d8447525-221a-4092-b884-9f0fe32a3f59","createdByUserId":"f774cc47-0f2c-4f70-98cb-0c3d3dfc820b"}'
