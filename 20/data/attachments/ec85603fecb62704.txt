@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ5OjI4Ljc5NjUxNyIsInVzZXJfaWQiOiI1OTY2YzNlNS1kZmNkLTQ5MTYtODU3MS0wMzAwOWM2Njg0NjIifQ.HVCsOWY_00759hEJHz1bdL095WUE1HW4j-rK-yvqmyM' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scientist safe everybody thus.","maxScore":74,"minScore":24,"description":"Herself open occur at return speech gas. Language test building value south interview daughter southern.","estimatedTime":"3 weeks","previewFileId":"d78f0d30-1371-41b8-9d09-822a6ec8df5e","createdByUserId":"5966c3e5-dfcd-4916-8571-03009c668462"}'

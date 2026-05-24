@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ5OjI3LjQ0OTQxMiIsInVzZXJfaWQiOiI2NjRkYmVhZi0wOTAyLTQ0MTAtODZiMi01NmE4OWE2NDcwNzQifQ.h9G9ZJYiWKJQ2i-exz_2_EBnrTEzg4Ajxc-tAPeB8c0' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expect participant trouble down mouth.","maxScore":89,"minScore":11,"description":"Big so wide bill measure activity employee. Keep road another score third pay. Front action scene lot employee husband.","estimatedTime":"5 weeks","previewFileId":"8b51b8a0-dc30-4c09-a522-09455629ccd9","createdByUserId":"664dbeaf-0902-4410-86b2-56a89a647074"}'

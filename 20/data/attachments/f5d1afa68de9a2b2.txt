@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ5OjI1LjQ5ODk1MCIsInVzZXJfaWQiOiJkZDVlNTUyYy1iNzJkLTQxYTMtOWJjOS1mMDFhYzM0MDFkNzgifQ.Qz_fm7FN4JmT6LaoVJcV4uOUddIffPYAl4bPXWBByOU' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Available campaign entire who up ago.","maxScore":66,"minScore":10,"description":"Budget reduce PM language. Near possible should tough. Research listen smile beyond peace capital.\nYeah race effect someone teacher speak. Bar machine safe either Congress him.","estimatedTime":"9 weeks","previewFileId":"9a11a0cb-f3ad-4a4e-adc0-21c51406917e","createdByUserId":"dd5e552c-b72d-41a3-9bc9-f01ac3401d78"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ5OjI2LjgwMTc4NiIsInVzZXJfaWQiOiJhYzliYzBmNC0zMjc0LTQ5NTAtYTYxOC1jYTQ5OGU4ZTQ4NGEifQ.kPj2IkHPhWFZcSaL2IWlVByIYwFsmn8OTGsPM7nr8VU' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kind try base necessary direction movie.","maxScore":71,"minScore":22,"description":"Player sound listen share. Teacher always fight TV piece amount. Value activity dark enter health.","estimatedTime":"3 weeks","previewFileId":"8dca3348-3642-475b-afd8-86b57df849d9","createdByUserId":"ac9bc0f4-3274-4950-a618-ca498e8e484a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ5OjI4LjE0NTYzMiIsInVzZXJfaWQiOiJhMWM2MmYxMS02ZmRlLTQ5YjQtOTRlMi03MmE4ZGZiNjVjODMifQ.9L-pY8xijY-W1128kTogEIKtLzu5cVhvbKEujxfOhvY' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Teach member again live describe design moment term.","maxScore":78,"minScore":11,"description":"American as trip south into case. Part cell less coach happy glass market.\nHead important media four. Today finish plan fear matter recently. Inside collection while.","estimatedTime":"10 weeks","previewFileId":"578ee891-b4f8-4efd-9570-88148a3a3c5d","createdByUserId":"a1c62f11-6fde-49b4-94e2-72a8dfb65c83"}'

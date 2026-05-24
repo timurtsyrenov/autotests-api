@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/65e6c765-49f7-490f-b5b4-8c5c4bd28176
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/65e6c765-49f7-490f-b5b4-8c5c4bd28176
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:65 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 65e6c765-49f7-490f-b5b4-8c5c4bd28176
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Bring guy among born behind car argue.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 184e0ad1-d79d-4a51-b593-cefce3a158b2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 17
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Time behind much few edge. Imagine property up feeling.
+Several chair arrive middle. Arrive ten lead economy one sit. Another forward shoulder instead.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
