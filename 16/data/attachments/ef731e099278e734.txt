@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMxOjIwLjg2OTUxNiIsInVzZXJfaWQiOiIyNDk0YmE5My05MWVhLTQ1YTYtODg4OC0yOGNmY2I0ZjM3MzcifQ.FLSDx4TtWX0RolXau4ytT1oX6gFM0UPL3QCaZXiiTqE' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out unit course week air ten never degree.","maxScore":69,"minScore":18,"description":"Take other recently cut just baby would. Sing experience that television grow involve.\nQuestion push couple argue real end need. Computer education factor term note.","estimatedTime":"4 weeks","previewFileId":"169ff2b7-afa5-4388-ab05-c3856ea04ac8","createdByUserId":"2494ba93-91ea-45a6-8888-28cfcb4f3737"}'

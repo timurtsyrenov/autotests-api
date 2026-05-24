@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMxOjE4LjUyODMyMyIsInVzZXJfaWQiOiJhNjFhNWUzYS0xNzFlLTQ3MTgtYTBkYy0yNWYwOGFhYmIwOWMifQ.kna5KPgylVeS3cg1Xp790e-c9clXbSAuVKkXZ_atlN4' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"May situation truth seek computer.","courseId":"010a0e6b-310c-4ab5-bc8e-293c92ac740c","maxScore":74,"minScore":30,"orderIndex":89,"description":"Particularly employee exactly. Factor section information author money maintain cup.\nOwn citizen after chair. Today attack resource interesting surface me. Reason share house relationship service.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMxOjE3LjcxMTYwNiIsInVzZXJfaWQiOiIyNTZkN2M2My04ZjVhLTRhMTYtYWJjOS1hNDVkMDE3MTAwMzgifQ.ImTNfF1by0V0tpdJxarrxS9Tl-68dXOR6ADfcvC97VY' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Once sit either southern.","maxScore":86,"minScore":18,"description":"Rate nation rather sea else as see office. In believe many. Road should suggest before.\nHotel building race suggest son this. Stop might either central affect. History tax chance civil member.","estimatedTime":"5 weeks","previewFileId":"dffd9b37-a10a-4d2a-a6b8-286aed0395cb","createdByUserId":"256d7c63-8f5a-4a16-abc9-a45d01710038"}'

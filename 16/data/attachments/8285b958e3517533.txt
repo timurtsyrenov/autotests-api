@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMxOjE4Ljc2NzE2NiIsInVzZXJfaWQiOiJjMGQwYTY0Yy03Yzc5LTQxZWMtYmQ3OC1jYTRmOTQ4MTgzYTYifQ.GaEJzhACq02YPkkru3edHZhHWL7Jn6snDZOWYAQkBiw' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Game once spend subject.","maxScore":96,"minScore":17,"description":"Mission blood beautiful team true worker. True establish a similar far how message quickly. Clearly radio then company fire they.","estimatedTime":"4 weeks","previewFileId":"f3f76706-2e12-4a9e-93fa-af6e21118492","createdByUserId":"c0d0a64c-7c79-41ec-bd78-ca4f948183a6"}'

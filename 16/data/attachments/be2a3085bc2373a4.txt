@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMxOjE4LjUyODMyMyIsInVzZXJfaWQiOiJhNjFhNWUzYS0xNzFlLTQ3MTgtYTBkYy0yNWYwOGFhYmIwOWMifQ.kna5KPgylVeS3cg1Xp790e-c9clXbSAuVKkXZ_atlN4' \
+  -H 'content-length: 308' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Former discussion party size half.","maxScore":55,"minScore":16,"description":"May always the bag strong control player agree. Well carry floor perhaps admit.","estimatedTime":"5 weeks","previewFileId":"591bf66e-9df9-441b-b496-972b76db1038","createdByUserId":"a61a5e3a-171e-4718-a0dc-25f08aabb09c"}'
