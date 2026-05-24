@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjMxLjg3NjM5OCIsInVzZXJfaWQiOiJiNzFmMjhjMC1hZmNjLTQzNzctOTIwYS00OGYyMjE2MjdjZDUifQ.9JeMmFzMpoG7bt3Pi6cJrpA4AMb7vwO3sJiAf3B8T-k' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Common nature radio.","maxScore":58,"minScore":20,"description":"Alone five add your raise. Word young subject office suffer form every.\nRisk project best campaign human. Know item growth central choose reason.","estimatedTime":"8 weeks","previewFileId":"ee723261-adcb-4cdc-a2f0-d4263d329d2c","createdByUserId":"b71f28c0-afcc-4377-920a-48f221627cd5"}'

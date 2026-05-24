@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjMzLjg0MjY1MCIsInVzZXJfaWQiOiIxZjI5OWY5Zi0yZjRmLTQxMTUtOTg0Yi0xN2E1OTg1MTk5OWUifQ.KOIL_DDfykFLKP7mfJvuFyc2YKOPoQBuZWlHV7fLiec' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Year model ability must yeah work.","maxScore":88,"minScore":2,"description":"Green response American already night job west. Position close bill such.\nSuccess factor work table drop pick. Last hard hard society. While east financial prepare.","estimatedTime":"4 weeks","previewFileId":"e428748f-14b3-439b-891f-9ff570b38779","createdByUserId":"1f299f9f-2f4f-4115-984b-17a59851999e"}'

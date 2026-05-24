@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjMwLjg5MTczMyIsInVzZXJfaWQiOiI0MDI4N2I1MC0zMzNmLTQ1NzYtYTBmMS1iYjk0ZTkyOThkZTQifQ.yaOzYVhN2B-w3KMXZDfvkU33iNlaqEJLuPkOjc8OilE' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President stock interest off.","maxScore":83,"minScore":10,"description":"Leg happy foot firm out may maintain. Manager appear either food begin pressure read walk. Why wish I keep.","estimatedTime":"3 weeks","previewFileId":"29999196-2584-4d8d-9b5b-33639559ec3d","createdByUserId":"40287b50-333f-4576-a0f1-bb94e9298de4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjM1LjE5NDMzOCIsInVzZXJfaWQiOiIzZDhkMDI1ZS03MmVjLTQ5OTItODQ0Mi1hMTU4ZTdlOGE4OGUifQ.z2IIppsQd26e18KYGz1c9jczNBq_bj5m7WDpRGwoUQ8' \
+  -H 'content-length: 313' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Training almost program social.","maxScore":77,"minScore":16,"description":"Real nearly including decide east. Him production decade wonder. Deep everyone million.","estimatedTime":"1 weeks","previewFileId":"f016b972-98ea-42a1-91fe-1c0ba4ec7b1c","createdByUserId":"3d8d025e-72ec-4992-8442-a158e7e8a88e"}'

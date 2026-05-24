@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjMyLjUzOTQyMSIsInVzZXJfaWQiOiJhNWE5ZDkyMC00MzU2LTRhNTYtOTM5Yy0zNzVmNzJhZWVmOTAifQ.fyXGNNX2zhrpqR3DlplJOlwnZD7u8I6fE3Fi8DHfyEY' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent newspaper safe as even Congress artist.","maxScore":91,"minScore":5,"description":"Rather Mr pass move. Mind push meet identify. Cell campaign must page improve.\nCustomer mother should hot big word. Campaign upon per why campaign strategy.","estimatedTime":"1 weeks","previewFileId":"659ad05b-7aba-418c-97f7-30154e2dabe6","createdByUserId":"a5a9d920-4356-4a56-939c-375f72aeef90"}'

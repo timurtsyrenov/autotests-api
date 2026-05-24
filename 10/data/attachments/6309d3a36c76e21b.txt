@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:82 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Agent newspaper safe as even Congress artist.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 91
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 5
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Rather Mr pass move. Mind push meet identify. Cell campaign must page improve.
+Customer mother should hot big word. Campaign upon per why campaign strategy.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 659ad05b-7aba-418c-97f7-30154e2dabe6
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to a5a9d920-4356-4a56-939c-375f72aeef90
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

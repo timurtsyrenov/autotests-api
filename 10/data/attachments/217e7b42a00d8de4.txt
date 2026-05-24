@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjM1Ljg5NDIyNiIsInVzZXJfaWQiOiJiYTYyYmI4ZC05OTllLTQ5ZjItODQxMC0xZjc0NTk4NDE3NGMifQ.pFl5tk3HjLTPkxEPHJPoz058Y6AY3hdM87UXBaCA1H4' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Play whatever food pay charge nation.","maxScore":66,"minScore":9,"description":"Single down size image reveal. Edge discover present arm thus country decision.\nInvolve fast edge vote choice. According business dinner majority. Party down allow dinner call.","estimatedTime":"10 weeks","previewFileId":"19976d29-60b9-468e-b608-fd62028258ad","createdByUserId":"ba62bb8d-999e-49f2-8410-1f745984174c"}'

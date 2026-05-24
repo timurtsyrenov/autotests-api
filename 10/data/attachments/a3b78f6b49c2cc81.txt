@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a8b89eef-a41a-4b3f-b57b-25e26b1610e0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjMwLjg5MTczMyIsInVzZXJfaWQiOiI0MDI4N2I1MC0zMzNmLTQ1NzYtYTBmMS1iYjk0ZTkyOThkZTQifQ.yaOzYVhN2B-w3KMXZDfvkU33iNlaqEJLuPkOjc8OilE' \
+  -H 'content-length: 248' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Local authority upon represent eat home.","maxScore":91,"minScore":27,"description":"Product sure much plant wonder race east reveal. Want phone line into worry. Success process cover race seven discussion own.","estimatedTime":"5 weeks"}'

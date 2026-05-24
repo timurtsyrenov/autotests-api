@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE5OjMzLjE5NDk0NCIsInVzZXJfaWQiOiI2MTAwZGEwYy1lYTVmLTQ5MWEtYTliNy00ZjQ1MDgzNjJlMzkifQ.EfWzfQ5kvDSx9xWrI21yQ4D9SN9EMignWTzz5PntsH4' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key campaign value thing knowledge scientist.","courseId":"2b016677-0cfb-417d-9a6d-5658397a3f3e","maxScore":88,"minScore":12,"orderIndex":13,"description":"Top order national future director expect paper. Section area child hand collection. Thousand alone fall what machine.","estimatedTime":"6 weeks"}'
