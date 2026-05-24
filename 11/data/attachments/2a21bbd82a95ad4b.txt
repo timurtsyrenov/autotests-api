@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjIwLjQ3NTQ4NiIsInVzZXJfaWQiOiIzZDcyODQ0Mi0xNzA0LTQ1OWQtYjQxNi04NjgxMDM2OTA2M2IifQ.lEsgf8RUPzK8l0I4RRgkW9tCCUeldo8LMxh4WOiQQCw' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We blue pressure start especially within.","maxScore":94,"minScore":8,"description":"Determine stage against wear stand early art. Station despite put simply bed name. Begin this save remember clearly tell. Your government mouth conference partner statement student.","estimatedTime":"4 weeks","previewFileId":"94189ebb-8fac-4cbd-82e7-1ae33d9cca65","createdByUserId":"3d728442-1704-459d-b416-86810369063b"}'

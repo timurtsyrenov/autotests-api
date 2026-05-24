@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjE4Ljc0ODg3NiIsInVzZXJfaWQiOiI5NDc5YjhkNS0zZWM5LTQ1NGMtYTI4MC0xMWEyZTM5ZWVmMTQifQ.9zheLqfJJNPKzXa0qNqmX15__boE6cDjP9p8tWI6qm0' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She rate him onto consumer return building.","maxScore":99,"minScore":8,"description":"Able eye manage appear each debate everything. Surface agent your seem.\nSomething firm effect own over good hand. Performance thank probably be decision station visit up.","estimatedTime":"7 weeks","previewFileId":"0eb162a3-d486-465a-aff3-11b122f3a628","createdByUserId":"9479b8d5-3ec9-454c-a280-11a2e39eef14"}'

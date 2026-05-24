@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjE5LjMwNTY1NyIsInVzZXJfaWQiOiIyOTEzMjY0YS04Yjk2LTRkNzItYmFlZC03ZjcxZDA2MjZlODgifQ.O8x5ulXHaO-4FuypA5HrCuK2CVAwDwnVGvwNyg-yA5k' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choice beat deal edge yes another I.","maxScore":72,"minScore":11,"description":"Laugh our agreement art summer area. Dream support table off save somebody where. Standard trip design.\nDemocrat spend spend. For say eat investment house.","estimatedTime":"2 weeks","previewFileId":"0daaa3b6-3e2a-4c54-82d9-24096491dd29","createdByUserId":"2913264a-8b96-4d72-baed-7f71d0626e88"}'

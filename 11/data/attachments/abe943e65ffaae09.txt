@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjIxLjAyODM0MiIsInVzZXJfaWQiOiJiNjYxZGU3OS1hYTdjLTRlYTQtYmFjZi1lZTU5NjFiNjVjMzUifQ.xkVtlOrGyDXblYXnfNr0_PgRAsj-XP2RTeIJOmaFMt4' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Charge view environmental young economic police even nearly.","maxScore":63,"minScore":17,"description":"Firm argue morning top growth democratic weight. Investment exactly office chance try. Three civil according nature receive.\nPart start strategy community.","estimatedTime":"3 weeks","previewFileId":"b577ce8d-8c7a-42b0-bb35-115bb5d8806d","createdByUserId":"b661de79-aa7c-4ea4-bacf-ee5961b65c35"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjE5LjMwNTY1NyIsInVzZXJfaWQiOiIyOTEzMjY0YS04Yjk2LTRkNzItYmFlZC03ZjcxZDA2MjZlODgifQ.O8x5ulXHaO-4FuypA5HrCuK2CVAwDwnVGvwNyg-yA5k' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hotel enough purpose house some.","courseId":"0be8ffdc-b3eb-4025-8d7d-e5c2e36e685f","maxScore":54,"minScore":17,"orderIndex":62,"description":"Arrive return half. World box future consider support hear little.\nWeek herself seat. Yes about artist society pass program avoid. Last apply ask particularly measure better least.","estimatedTime":"6 weeks"}'

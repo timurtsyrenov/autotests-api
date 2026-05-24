@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjIwLjQ3NTQ4NiIsInVzZXJfaWQiOiIzZDcyODQ0Mi0xNzA0LTQ1OWQtYjQxNi04NjgxMDM2OTA2M2IifQ.lEsgf8RUPzK8l0I4RRgkW9tCCUeldo8LMxh4WOiQQCw' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leader receive television recognize individual bit spring.","courseId":"739f0787-59bd-4449-a29c-b516fe6c2423","maxScore":65,"minScore":17,"orderIndex":50,"description":"Court friend report science first response coach. Attorney building country box speech born wife. Modern several message full trip person college.","estimatedTime":"7 weeks"}'

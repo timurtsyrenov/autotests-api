@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjE5Ljg1MzUyMSIsInVzZXJfaWQiOiJiN2RlOWYxMS1hYjNiLTQ0ZDMtOTA5MS1jNmJmODE0ODczZmYifQ.uHXNtPfCXr9sKzLmSijIwEyL8JE_S99fB4yn_7tXN4w' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table off while listen check plant.","maxScore":68,"minScore":27,"description":"Protect myself act reach positive visit small letter. Guess effect second. Exist father hundred explain spring production today. This common area gun husband run.","estimatedTime":"2 weeks","previewFileId":"bcf77f90-585f-4c06-89cb-c0f81633b26e","createdByUserId":"b7de9f11-ab3b-44d3-9091-c6bf814873ff"}'

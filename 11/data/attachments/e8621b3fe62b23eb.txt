@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjE2Ljk4Mzc4MyIsInVzZXJfaWQiOiJkNmRiMTg5NS01MGM3LTQ3ODctYWEwZC1lM2RkYzU5ZGE4N2UifQ.1aDFQo3f310dnKlUFGjFnHOM7VtEvX5s8LAZ7KZ23aU' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Box seek class share series weight light follow.","maxScore":64,"minScore":11,"description":"Certain a world consider not federal point. Rather girl director condition such food. Gas green they least his thus. Five name magazine body threat common.","estimatedTime":"6 weeks","previewFileId":"df917cba-0aa8-4d71-a134-c079e16bb91d","createdByUserId":"d6db1895-50c7-4787-aa0d-e3ddc59da87e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjA4OjIxLjAyODM0MiIsInVzZXJfaWQiOiJiNjYxZGU3OS1hYTdjLTRlYTQtYmFjZi1lZTU5NjFiNjVjMzUifQ.xkVtlOrGyDXblYXnfNr0_PgRAsj-XP2RTeIJOmaFMt4' \
+  -H 'content-length: 254' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Amount show discover show.","courseId":"daa50de0-f9cf-4fb8-a0d7-565af2ee64b6","maxScore":83,"minScore":17,"orderIndex":66,"description":"Once within national tend. Everybody scientist attention voice cold west piece.","estimatedTime":"2 weeks"}'
