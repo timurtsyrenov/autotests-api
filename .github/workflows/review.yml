@@ -42,8 +42,8 @@ jobs:
           # Встроенный токен GitHub, необходимый для публикации комментариев
           VCS__HTTP_CLIENT__API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-          # Закастомил запуск GitHub Actions на локальной машине, так как LLM развернута локально
-          LLM__PROVIDER: OLLAMA
-          LLM__HTTP_CLIENT__API_URL: http://localhost:11434
-          LLM__HTTP_CLIENT__API_TOKEN: local
-          LLM__META__MODEL: qwen2.5-coder:7b
+#          # Закастомил запуск GitHub Actions на локальной машине, так как LLM развернута локально
+#          LLM__PROVIDER: OLLAMA
+#          LLM__HTTP_CLIENT__API_URL: http://localhost:11434
+#          LLM__HTTP_CLIENT__API_TOKEN: local
+#          LLM__META__MODEL: qwen2.5-coder:7b
