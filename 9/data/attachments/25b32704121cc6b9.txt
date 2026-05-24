@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE4OjA2LjM5OTY0NyIsInVzZXJfaWQiOiJlYjMyOWJhOC0yOGMzLTQwNDItODYzZi01MjhlZmViMjcyZDQifQ.gpxUFq3ZuwzZiWSOqfMhgC9AJLLGLYhFsH7g31EFneU' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Either build bad bar.","maxScore":74,"minScore":25,"description":"State sea later field federal until different building. Will kitchen future cover fact car.\nVery well own law. Personal watch institution she cause.","estimatedTime":"10 weeks","previewFileId":"7e1283cd-8898-40c5-b883-7710923513f2","createdByUserId":"eb329ba8-28c3-4042-863f-528efeb272d4"}'

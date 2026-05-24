@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE4OjA0LjgyNzc2NCIsInVzZXJfaWQiOiIxMzU2ODVhMi0xZGMwLTQ2OWMtYmE0Ny1kMTU5NjEzOWUxNWEifQ.O1podM8AH15gQvSF6rZliOE3OG6hTkuoLiPF5CMNZCI' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue rise news civil.","maxScore":60,"minScore":2,"description":"Year feeling can help career. Work account hard behavior.\nWhen tonight if follow five already walk. Country whatever exist according grow. Build why western mission.","estimatedTime":"4 weeks","previewFileId":"9c68a759-c70f-4d82-ae10-721aa924f011","createdByUserId":"135685a2-1dc0-469c-ba47-d1596139e15a"}'

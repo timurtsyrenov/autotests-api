@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE4OjA2LjY3MzE5MiIsInVzZXJfaWQiOiIyYTQyMmFjYS0yNzIyLTQ2ZWYtYTkxZi1iZmFiY2MzMjVmMTgifQ.xhIPTKI4Vuf2S0c8yJms-yFxcQCqFuiKpG5aJRG3pHU' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Need hard game management provide concern before.","maxScore":68,"minScore":15,"description":"Peace TV everybody again could tree. Final south including interview indeed thank cultural. Number usually happen reflect project write great. Run word product learn each likely different age.","estimatedTime":"5 weeks","previewFileId":"5bc98ffd-5067-4cc7-9260-4a66ccfe591d","createdByUserId":"2a422aca-2722-46ef-a91f-bfabcc325f18"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/86424ca3-2fec-4897-ad8d-ad86af179928' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE4OjA0LjgyNzc2NCIsInVzZXJfaWQiOiIxMzU2ODVhMi0xZGMwLTQ2OWMtYmE0Ny1kMTU5NjEzOWUxNWEifQ.O1podM8AH15gQvSF6rZliOE3OG6hTkuoLiPF5CMNZCI' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner just research hope care together learn.","maxScore":56,"minScore":10,"description":"Various major rate local positive possible. Whole officer turn alone spend well artist. As value fear above whole.\nPosition under own market grow course. Ten senior pass staff fact people other.","estimatedTime":"10 weeks"}'

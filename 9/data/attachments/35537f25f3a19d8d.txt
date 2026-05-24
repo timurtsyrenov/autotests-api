@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE4OjA3LjU4MTExMCIsInVzZXJfaWQiOiJiMDJhY2Y1NC1kODQ5LTRjZGQtYjcyOS01MDZkY2I3ZjE4ZGUifQ.Z4StObHL8OvSk3ijSqbYXOjIs5W7aNlR0s_Vho-M38Q' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Action daughter forward all guy policy many.","maxScore":91,"minScore":24,"description":"Maintain stock family off.\nFree environment behind throw.\nTen art skill street seek even. Member voice trade the some training.","estimatedTime":"5 weeks","previewFileId":"c08a653b-41ce-48ff-8583-a21353dea773","createdByUserId":"b02acf54-d849-4cdd-b729-506dcb7f18de"}'

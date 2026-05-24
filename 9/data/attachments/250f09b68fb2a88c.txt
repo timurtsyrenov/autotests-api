@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEyOjE4OjA3Ljg1NjE5NyIsInVzZXJfaWQiOiI1YzAxM2FjYi1jZDQ5LTRkZTEtOTM1OS03N2VkYTQ0OGE3NTAifQ.djJ59ArdLEoNMa6nQ3MPCLAre24aIuf1jYDy8sbss7A' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Course future suffer education necessary third interesting.","maxScore":54,"minScore":28,"description":"Natural heart drop something manager Republican stop. Story concern number trip work teacher.","estimatedTime":"9 weeks","previewFileId":"dc3f6959-db16-41f6-a0d2-b8bd0b954efc","createdByUserId":"5c013acb-cd49-4de1-9359-77eda448a750"}'
