@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjA0LjAzODI1MCIsInVzZXJfaWQiOiJhNGFhMDU0Yy0zNjE1LTRkN2YtYWQ1Yi0wYzBkN2M2MjE2NDgifQ.GKORlyhwt-YEdaW-YuCMfdZeqKmYRcZqNUoAaWWwzq0' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Religious wind marriage their.","courseId":"2fb54b9e-32cf-4b73-83da-2621440d85cd","maxScore":52,"minScore":11,"orderIndex":95,"description":"At head quickly process kind campaign. Box garden once fish eat. Professional door paper list improve.","estimatedTime":"9 weeks"}'

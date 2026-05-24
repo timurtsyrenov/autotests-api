@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjA2LjQyNjY4MyIsInVzZXJfaWQiOiI2MWNmMjVhMi01MGQxLTQwNDYtOWI5MS0xMjZiZDQ1N2I0MDkifQ.leze7OI5bILuQvBwMdp9OCXDJxMd2cV7XytlnH5E-fQ' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Present manager book decision lead air piece.","maxScore":92,"minScore":13,"description":"Son baby power tough thought whose not.\nOutside executive catch family Mr. Lead rate seven billion. War beat performance.","estimatedTime":"3 weeks","previewFileId":"e01a9f25-1143-4d13-a9fb-049a6d5b3b5c","createdByUserId":"61cf25a2-50d1-4046-9b91-126bd457b409"}'

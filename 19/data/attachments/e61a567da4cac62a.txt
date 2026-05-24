@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ae32f267-88e1-4ccc-8d2e-ccf17e36f8e4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjAxLjk4Mjk3MSIsInVzZXJfaWQiOiJhZWUxNDY2YS1kMTY0LTQwMzAtOGFiNC0zMmYzMDVhMTE1YmQifQ.v8lZN7OKgreq7uxpyGRQHscq_VgbIl1tCP21x87tpYY' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community upon couple keep stop.","maxScore":57,"minScore":10,"description":"Popular story section political. Then husband exactly.\nBenefit morning foreign situation. Audience great audience guess. Shake another able catch listen happy.","estimatedTime":"2 weeks"}'

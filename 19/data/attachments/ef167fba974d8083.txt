@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjA0LjYyOTE4MSIsInVzZXJfaWQiOiI4ZDA2NzZjMi1kYmRiLTRlMTMtOGNkYy0zYzYwNTY2MzQwOGQifQ.TrEtJpdSVxofhAfPFTrYrqYCIbRxVGpGecW_M_5J7lI' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Learn community girl large majority.","maxScore":75,"minScore":28,"description":"Difficult bill million owner. Know evening protect wrong let may.\nVote TV gas term. Baby young offer.","estimatedTime":"5 weeks","previewFileId":"6e52cf93-99c6-4bb2-a315-fce38dd625f0","createdByUserId":"8d0676c2-dbdb-4e13-8cdc-3c605663408d"}'

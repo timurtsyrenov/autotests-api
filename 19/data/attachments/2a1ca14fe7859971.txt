@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjA1LjIxNzg2MiIsInVzZXJfaWQiOiI5ZjZhMjgyNS00ODcyLTQ1ODMtOWUxYS1lMDZjODE2OWEzYjkifQ.gOjju8Bnm8xDZngzmrOMTYaBbu8GEOle_H009kwJCCE' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student picture this hospital instead site environment.","maxScore":74,"minScore":20,"description":"Religious power word go. Include account skill magazine group idea enter. Pull again concern pick fine meeting girl.","estimatedTime":"5 weeks","previewFileId":"18d90c15-cbf6-445c-9bbe-ebecc1c81a7c","createdByUserId":"9f6a2825-4872-4583-9e1a-e06c8169a3b9"}'

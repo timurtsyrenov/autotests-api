@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjA1LjIxNzg2MiIsInVzZXJfaWQiOiI5ZjZhMjgyNS00ODcyLTQ1ODMtOWUxYS1lMDZjODE2OWEzYjkifQ.gOjju8Bnm8xDZngzmrOMTYaBbu8GEOle_H009kwJCCE' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agree case yourself front course.","courseId":"b2c50591-dc94-466a-8bc7-803e83961a7e","maxScore":78,"minScore":2,"orderIndex":37,"description":"Report car father style identify. Policy hard find area.\nSay building by that player blood. Church scientist live. Soldier evidence traditional choice ability contain item.","estimatedTime":"10 weeks"}'

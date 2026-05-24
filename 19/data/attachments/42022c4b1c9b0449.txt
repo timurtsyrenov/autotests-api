@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjA0LjAzODI1MCIsInVzZXJfaWQiOiJhNGFhMDU0Yy0zNjE1LTRkN2YtYWQ1Yi0wYzBkN2M2MjE2NDgifQ.GKORlyhwt-YEdaW-YuCMfdZeqKmYRcZqNUoAaWWwzq0' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sign shake fear go.","maxScore":54,"minScore":12,"description":"Party subject window help. Among series think son be left system.\nNote seek floor include. Type west class first until task. Suffer recently affect whatever all focus simply add.","estimatedTime":"6 weeks","previewFileId":"211afd4e-abee-49a6-9618-c15b02b43e23","createdByUserId":"a4aa054c-3615-4d7f-ad5b-0c0d7c621648"}'

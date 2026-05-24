@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjAzLjQ1ODM3OSIsInVzZXJfaWQiOiJkN2ZlYjA5ZS04NTRjLTQxMmMtODJiMC0xYjQ2ZjA0YTBjN2EifQ.YFZ8P4xSxFB0nu6512VxgiAdB4NWRNOUnY2a94crVSo' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget season sea race wife actually.","maxScore":73,"minScore":25,"description":"Seat represent drop tree. Save admit movie rest. I direction drop base.\nNotice fact collection financial every indicate though. Expert stay business focus note. Art federal young.","estimatedTime":"8 weeks","previewFileId":"9c925eb2-753c-48ca-bee4-2349bae8dd88","createdByUserId":"d7feb09e-854c-412c-82b0-1b46f04a0c7a"}'

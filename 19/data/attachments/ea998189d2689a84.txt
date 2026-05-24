@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjQ0OjA1Ljg0MTU4NCIsInVzZXJfaWQiOiIyNzBlMTU3OS1iMDhjLTQxYjMtODJjNy03YTM4ZWM4MTZhNWUifQ.e8jSQw1D44GeJOznyzUl5HBqw8Pf9H11KY6aOVxzgDA' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Large design human artist.","maxScore":61,"minScore":15,"description":"Stage key should perhaps. Another matter floor hit sit.\nHelp tough clear physical example pressure. Sometimes open third local language.","estimatedTime":"7 weeks","previewFileId":"39b8679e-e0a1-4314-b114-cbfafd419efd","createdByUserId":"270e1579-b08c-41b3-82c7-7a38ec816a5e"}'
