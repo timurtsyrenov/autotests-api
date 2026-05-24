@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjM5OjM2LjY3NjQ0MiIsInVzZXJfaWQiOiI4ZGI5NDJiYi00MmQ2LTQ2YzEtYjI1ZC02NDllZWUzMzdkMDkifQ.uOnNKSylgWKyJ4aXeWWq41Tg9hhYcaCnwQEjCq7qG_c' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Degree range seat onto describe fly.","maxScore":60,"minScore":6,"description":"Light language term cover return among. There huge class finally human. Where pretty real do. Individual return outside.\nForce available process.","estimatedTime":"6 weeks","previewFileId":"24585a65-9ed3-474f-87d8-4e375d4f53a2","createdByUserId":"8db942bb-42d6-46c1-b25d-649eee337d09"}'

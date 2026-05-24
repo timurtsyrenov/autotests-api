@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjM5OjM1Ljc4MTk1MyIsInVzZXJfaWQiOiJhN2ViOTk1Zi1iN2M5LTQxNjMtOWQ1OS04NDM1OWUzNzZiNTIifQ.QgoltMeZmFccdmKtD_fb_23AQaN67mWLYHv8FlWr2KM' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exist know American she career hit sister.","maxScore":86,"minScore":20,"description":"Training line mind only how performance. Need tell region there method. People film response forget.\nGrowth when threat accept head. Agent protect like.","estimatedTime":"6 weeks","previewFileId":"e424eb22-cf78-4f8b-9275-6f0f7f632e1d","createdByUserId":"a7eb995f-b7c9-4163-9d59-84359e376b52"}'

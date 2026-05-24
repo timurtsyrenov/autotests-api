@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjM5OjQwLjIzMjAzNiIsInVzZXJfaWQiOiJmYThmYTcyMS1kZjMwLTQ3NWMtYmI4Ny1mZWZkYTIzODhhNGMifQ.XIc1WqbJNiFEUtoqHvfwv2buqDScP5kTJ_8sIkk4MlI' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Way prove picture board station skill.","maxScore":50,"minScore":23,"description":"Return long eye either foot speech. Need anyone either few. Short interesting line lay important we.\nAble step skill newspaper hit section. Yourself learn serious voice blood response case lot.","estimatedTime":"8 weeks","previewFileId":"5ffe1d0b-5f4c-415d-a020-582a95c7e9fe","createdByUserId":"fa8fa721-df30-475c-bb87-fefda2388a4c"}'

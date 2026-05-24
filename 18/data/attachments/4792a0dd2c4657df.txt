@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjM5OjM5LjAxNDA0NCIsInVzZXJfaWQiOiIyYzhiMDM1NC1jYzQ0LTQwMDItODhiZS1lMDQ2MTlhNjQ0ZmQifQ.XfBxjGeatggSK_KyhvRQ2As2gPhnitUfDQyQT6yFcDc' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test decide push people thing.","maxScore":100,"minScore":4,"description":"Figure prepare want exactly move. How than worker field sure every. Support new story employee so human see.\nElse my voice same should many. Glass win price mention.","estimatedTime":"5 weeks","previewFileId":"6e68153f-f502-4aab-9703-4a6a75045635","createdByUserId":"2c8b0354-cc44-4002-88be-e04619a644fd"}'

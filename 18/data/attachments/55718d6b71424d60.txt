@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjM5OjM3LjI2MjYwMCIsInVzZXJfaWQiOiIxZTM2OWQ1OC05Nzk4LTRmNjgtYTU2OS1hOWFiMTIyODA3MTAifQ.9nVmwJ_abBFyHI821MVSaxp7cqRrXLPKBe7lHvLR0-w' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source company phone whole.","maxScore":93,"minScore":24,"description":"Series yes medical inside protect. Religious family player day side within ever.\nBlack believe show community. Industry develop manager short training.","estimatedTime":"6 weeks","previewFileId":"a43b86aa-9c04-4bce-a06a-8c120e117c54","createdByUserId":"1e369d58-9798-4f68-a569-a9ab12280710"}'

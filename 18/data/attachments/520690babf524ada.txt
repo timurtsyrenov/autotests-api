@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjM5OjM4LjQzMzM0NSIsInVzZXJfaWQiOiI3NTA3NDJiZC05ZTE5LTRjNTEtOGMxYi1jNzQxY2M3MTM1MTUifQ.bEx-avqxbqqe9mQsgYu8Cuz9Ils4U1go99XB5GKMItw' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Media time mother back development ok couple possible.","maxScore":71,"minScore":1,"description":"Half require evening activity evening better. Lot near play when. Role air forget development lay air open.","estimatedTime":"5 weeks","previewFileId":"5b25878d-6dae-4974-9516-8712a446198a","createdByUserId":"750742bd-9e19-4c51-8c1b-c741cc713515"}'

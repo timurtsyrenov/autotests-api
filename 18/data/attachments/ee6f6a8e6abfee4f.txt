@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjM5OjM3Ljg0MTc1NiIsInVzZXJfaWQiOiI3ODVhYzQwYS0xOTQ3LTQ0NzMtYTkwYS1mOTlmZThmZTVlM2UifQ.YoDhXOcPV_dVK9vR5FI1LPYkzeBobCY1i4m-uxNJdXU' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch language than natural such.","courseId":"ff554441-b0c3-4403-9804-ae849e38a180","maxScore":94,"minScore":3,"orderIndex":91,"description":"Avoid again region consider professor partner industry. Party factor study gun several talk. Surface any skin.\nNearly anyone yard city appear. Any deep true live itself imagine majority situation.","estimatedTime":"1 weeks"}'
