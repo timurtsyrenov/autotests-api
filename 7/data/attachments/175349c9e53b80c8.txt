@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQyOjI5LjM4OTk0NiIsInVzZXJfaWQiOiI0Mjg4NmMyYi00MWYzLTQ0M2QtOGE5Zi0zN2RkYjM3ZjI5YTMifQ.y_XLiwDy-h5nTqx2xgbmhQWJ_IZ929s_2fc1xTgJlCE' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eye however big blood child.","maxScore":63,"minScore":1,"description":"Between thing return hand role. Kind rather discussion life Mrs. Off lay follow outside enjoy himself staff write. Consider wall theory officer sell show.","estimatedTime":"7 weeks","previewFileId":"10782c8a-8795-4236-84e8-c1960c3f8500","createdByUserId":"42886c2b-41f3-443d-8a9f-37ddb37f29a3"}'

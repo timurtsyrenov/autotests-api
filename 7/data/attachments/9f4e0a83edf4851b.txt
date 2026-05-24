@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQyOjI4LjI3NDE0MCIsInVzZXJfaWQiOiI4ZmJhOTc3OC1kZDM4LTRlNTctYWY4NS04NzNlMzg2NWQ5MGIifQ.nFgzblExuZ5FvQzw56Dwur3hiGqOPnbOVgGaTLUq7Ug' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Floor ok next fill part policy language not.","maxScore":88,"minScore":19,"description":"Executive series nice smile success. Myself create describe result lay bring.\nGood those leave paper early themselves. Serious analysis partner reduce when concern cup. Identify should beyond method.","estimatedTime":"3 weeks","previewFileId":"8d928f92-7972-4886-970c-97ec1fa64e5e","createdByUserId":"8fba9778-dd38-4e57-af85-873e3865d90b"}'

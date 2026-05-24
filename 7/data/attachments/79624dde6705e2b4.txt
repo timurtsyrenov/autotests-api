@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQyOjI3LjY2MTc5MyIsInVzZXJfaWQiOiI3MjU3NjdmNC03NmEyLTQ4ZjItYmRjNC00NjZmMjMwNzliOGYifQ.eNjBBKHLzm92DO3bWsNxojRHdwIbFP4KxEnsgkXfXIk' \
+  -H 'content-length: 276' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fish yard rich fall.","maxScore":89,"minScore":10,"description":"Teacher early little as. Condition sell evidence their week.","estimatedTime":"10 weeks","previewFileId":"0dd36cd8-d1a4-474a-8859-a1b99789c7b6","createdByUserId":"725767f4-76a2-48f2-bdc4-466f23079b8f"}'

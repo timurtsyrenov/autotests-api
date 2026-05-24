@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/255f2fa9-aed4-4015-8c59-f0fc58c0f22a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQyOjI2LjgwMjk4NiIsInVzZXJfaWQiOiI0MWNjMzFkNi0yMDc5LTQyMzktYjc3Mi1kNzVkNGQ0ZDlhZTQifQ.7KsnSFMA-87tM-KMrs4oVW40qA24nGhuNQNgHia5MQU' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Idea travel manager teach doctor on try.","maxScore":55,"minScore":28,"description":"Between room you space doctor authority probably. Last song democratic movement represent television.\nFactor nature conference Mrs. Clear brother citizen though each admit design factor.","estimatedTime":"2 weeks"}'

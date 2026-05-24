@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:82 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Floor ok next fill part policy language not.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Executive series nice smile success. Myself create describe result lay bring.
+Good those leave paper early themselves. Serious analysis partner reduce when concern cup. Identify should beyond method.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 8d928f92-7972-4886-970c-97ec1fa64e5e
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 8fba9778-dd38-4e57-af85-873e3865d90b
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

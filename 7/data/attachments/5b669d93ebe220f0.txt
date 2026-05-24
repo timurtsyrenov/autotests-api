@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQyOjMxLjE2ODIwMyIsInVzZXJfaWQiOiI5NGJlMjk0NS03N2JjLTRhOTgtOGQyOC00ZWI3NzVkNTFlMzQifQ.KRDn4Gjy5Mpa5CD5DOsckyZQXsIBwEiQ5dX4faOuFtU' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Peace need include need stock foreign too about.","maxScore":91,"minScore":3,"description":"Win inside knowledge notice material do. Popular crime factor week. Computer reveal politics film off skill debate.\nConference east somebody manager.","estimatedTime":"4 weeks","previewFileId":"41fc9dc6-5535-40d1-acb0-0bc7b464bbc6","createdByUserId":"94be2945-77bc-4a98-8d28-4eb775d51e34"}'

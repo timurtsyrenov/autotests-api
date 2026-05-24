@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQyOjI5Ljk5OTU1OSIsInVzZXJfaWQiOiJmNDg3ZjUzOC03NDJmLTQ0ZTMtOTQzMS1kYWIwYjM3NDQxMmUifQ.-09Z7Qi1taEUhBI7Oh3968b83z5Kygj4chVy6lboiaI' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Citizen ground religious I case.","maxScore":87,"minScore":26,"description":"Anything summer cut. Here kid investment will enjoy something step. Man good anything note whole side.\nPeace example edge project high follow common spend. Painting daughter food marriage talk.","estimatedTime":"8 weeks","previewFileId":"3ca1bb9c-f9e6-4574-9954-3a47d4045210","createdByUserId":"f487f538-742f-44e3-9431-dab0b374412e"}'

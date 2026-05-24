@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDA4OjQyOjI4LjgyNzE4NCIsInVzZXJfaWQiOiIwYTIyYjU5Zi1hMDcwLTQzMmEtOTk4NC0yNDRmYjBmZmVlOWYifQ.P25Kk7hQiICL_AXJe7q9pKKQQmLki-1FmGFkBa0cKqE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finish two visit weight agency.","maxScore":69,"minScore":19,"description":"Mouth up radio country including. Visit moment girl choice eye their. Who picture keep later easy pull within evidence. Person something per expert effort.","estimatedTime":"7 weeks","previewFileId":"c16cc317-764f-4206-bcc1-6f34406a02e7","createdByUserId":"0a22b59f-a070-432a-9984-244fb0ffee9f"}'
