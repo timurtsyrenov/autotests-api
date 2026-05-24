@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjMwLjQ5MzQxNyIsInVzZXJfaWQiOiIyZjZmY2MwMS0yMGYyLTQzZjktOTFiNC04Zjc4MjRjMjg2OTIifQ.rt38YQNhL0VWZ3Y4cHzu1oTAedolnIN5If6m99FB_C8' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Race old water floor north.","courseId":"a3902e18-6082-49e6-a5a1-160a2145a7ca","maxScore":51,"minScore":26,"orderIndex":83,"description":"Billion method hear four result. Both speech picture a wish both at. Former trade customer.\nChild ball year chance candidate. Energy training class do into.","estimatedTime":"7 weeks"}'

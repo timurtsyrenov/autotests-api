@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjI5LjgzNzA0NCIsInVzZXJfaWQiOiI5NDA4NTZlNS0xNGZjLTQxMGUtOGM3Ni02MTc0OTA5ZTJiNTAifQ.kcbFP7bJx3d0TWHUcqQm2fSMgA1tAach2gYTDOrkGoM' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Capital former simple executive look assume upon.","courseId":"8ba96973-9bd2-499a-ab55-cf8c89d15c95","maxScore":66,"minScore":1,"orderIndex":80,"description":"Nothing property professor join try. Bed book eight require model part.\nPick federal TV watch five. Our carry defense become market.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjI5LjgzNzA0NCIsInVzZXJfaWQiOiI5NDA4NTZlNS0xNGZjLTQxMGUtOGM3Ni02MTc0OTA5ZTJiNTAifQ.kcbFP7bJx3d0TWHUcqQm2fSMgA1tAach2gYTDOrkGoM' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Build color leader better center strategy.","maxScore":82,"minScore":26,"description":"Talk than team during even argue.\nTeam include according role seat modern book. Quite decide could it plan threat stock environmental.","estimatedTime":"8 weeks","previewFileId":"649e8391-19f1-4927-9ff2-88915b57810b","createdByUserId":"940856e5-14fc-410e-8c76-6174909e2b50"}'

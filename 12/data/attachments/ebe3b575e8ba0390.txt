@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjMwLjQ5MzQxNyIsInVzZXJfaWQiOiIyZjZmY2MwMS0yMGYyLTQzZjktOTFiNC04Zjc4MjRjMjg2OTIifQ.rt38YQNhL0VWZ3Y4cHzu1oTAedolnIN5If6m99FB_C8' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finally statement church.","maxScore":65,"minScore":25,"description":"Rich seek goal nothing.\nGive organization per. Around partner unit build weight happen. Former suddenly western affect eight yet fire. Simply painting dark view moment set.","estimatedTime":"10 weeks","previewFileId":"0e3bdbab-3f5b-4432-baf9-67dc6a2978f2","createdByUserId":"2f6fcc01-20f2-43f9-91b4-8f7824c28692"}'

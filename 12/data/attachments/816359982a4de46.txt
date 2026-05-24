@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjI3LjgwMTgxMCIsInVzZXJfaWQiOiJmMjVlZmVlZi00MDEwLTRkM2UtYWZkMi03YWUzMjViMDIwMjYifQ.vBHT_OJ2Pgzh_mz9oRaVg-bqYyCXtNtrTkYnPCe7wIg' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw responsibility reach ever husband consider.","maxScore":66,"minScore":14,"description":"Middle hope foot fly need glass. Yourself at wide home seat newspaper.\nAddress watch other within medical concern. Task evidence base should responsibility. Forget this agency my artist common form.","estimatedTime":"5 weeks","previewFileId":"05bc0367-a450-4511-adc3-6e879d7f3857","createdByUserId":"f25efeef-4010-4d3e-afd2-7ae325b02026"}'

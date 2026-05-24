@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjMxLjg0NzE3MiIsInVzZXJfaWQiOiIwMDU0YTFiYy03MGEwLTQzYTYtODA3OS1kZTg3YzFmNjc2ZjEifQ.Cayi9BIpJ48rJ9D-HwCpAzQAgwPIm0WvAdKI3ThjW84' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss process assume her anything believe require.","maxScore":96,"minScore":10,"description":"Yeah stand according threat even tell visit.\nAgree peace blood citizen involve return million. This late tell south investment into. Month water arrive check could able.","estimatedTime":"3 weeks","previewFileId":"58dcc690-c6ba-49ac-8095-e1d25e2f902b","createdByUserId":"0054a1bc-70a0-43a6-8079-de87c1f676f1"}'

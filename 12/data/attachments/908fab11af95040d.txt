@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/45cc28f9-7159-4c98-b905-12976e9af8c8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjI3LjgwMTgxMCIsInVzZXJfaWQiOiJmMjVlZmVlZi00MDEwLTRkM2UtYWZkMi03YWUzMjViMDIwMjYifQ.vBHT_OJ2Pgzh_mz9oRaVg-bqYyCXtNtrTkYnPCe7wIg' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred defense for left.","maxScore":89,"minScore":17,"description":"President world rather glass. Painting agent record current.\nTrip herself within. Performance month simple attention apply treatment let. If medical west off its.","estimatedTime":"3 weeks"}'

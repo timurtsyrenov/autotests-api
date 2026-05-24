@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjMyLjUwMjA1NiIsInVzZXJfaWQiOiJmZjc0NDI1Ni02NDgzLTRlNTctODM2Ny01MGUwMmFkZmY3YWUifQ.h9M7SlK4qe5pwYE70rPLHg7JNh11o3p6Y_rMMf4q_cY' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Town particularly challenge teach wall hard toward.","maxScore":66,"minScore":6,"description":"In main new.\nEnjoy unit cause morning option when look.","estimatedTime":"9 weeks","previewFileId":"bdc3da17-183f-4874-b3c8-8b66528fa5c3","createdByUserId":"ff744256-6483-4e57-8367-50e02adff7ae"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjI4LjQ4ODQxNSIsInVzZXJfaWQiOiJiMDM3ZjM3Yi1mZjMzLTQzZjMtODUwZi02NzY0ZjMzNTBjNzgifQ.O9L-wl1YP3_IqoFbjQZVKXt1nA39UKX6idE1rdGsKQU' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand position create traditional service.","maxScore":54,"minScore":24,"description":"Affect should design Republican around early. Want everyone seem minute five commercial. Generation herself seek individual serious soon suggest American.","estimatedTime":"5 weeks","previewFileId":"53fb013f-74fb-4d69-9b40-cbaa415c0ab2","createdByUserId":"b037f37b-ff33-43f3-850f-6764f3350c78"}'

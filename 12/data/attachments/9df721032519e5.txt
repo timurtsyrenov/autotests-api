@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjEzOjMxLjE0MzgyMiIsInVzZXJfaWQiOiJlNzhhZWVmNi1jM2Y3LTQwOTEtYjkzZC1jNTNjMjJhM2U3NjEifQ.PMQUFDdFcdis5CJfSzpjqyp_h6FZ0MyfsdLS3lbOI_0' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Trial raise full even base money.","maxScore":79,"minScore":8,"description":"Call we church prepare happen type. Item month card plan.\nOften senior military. Visit name collection. Even hair even figure although would program serve.","estimatedTime":"1 weeks","previewFileId":"1e5fb8aa-1135-4ca3-b2f3-a7d97ef175a8","createdByUserId":"e78aeef6-c3f7-4091-b93d-c53c22a3e761"}'
