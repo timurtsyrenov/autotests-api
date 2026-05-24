@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjMyLjUyNTMwMyIsInVzZXJfaWQiOiI1MmI3ZDRiMi1iMGNiLTQzM2MtYWFiYi00OTUzY2ZlMDRlMTAifQ.9vLLopMKZ21XZFIMGsZd3NfboxhkgGo-eEpfEYY6dPk' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"New whom girl cause.","maxScore":63,"minScore":23,"description":"Stand real will everything. Manager want than court near list. Avoid student performance site.\nDesign kind plan report feeling. Present brother others do moment. Get cut dark.","estimatedTime":"8 weeks","previewFileId":"86e0785a-4fa7-4346-baf8-1484ccc439c9","createdByUserId":"52b7d4b2-b0cb-433c-aabb-4953cfe04e10"}'

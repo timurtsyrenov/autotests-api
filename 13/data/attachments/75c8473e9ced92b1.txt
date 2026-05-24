@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjMzLjY5NjUyMSIsInVzZXJfaWQiOiI5ZDlhN2IwOC1kZTQwLTQwOTAtYWE4YS0zMjFjYzEyMjkyMGUifQ.NjQQlLB4BWGbQHtATGGCaDj10lCJyrZDgDqxlExTS3s' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Different room develop.","courseId":"2927d32f-433d-4497-bb52-8ff826cf4916","maxScore":56,"minScore":13,"orderIndex":10,"description":"Attorney owner cultural interest light. Night against feel old open store stay.\nPresent happen decision. Reveal fine main floor. Not position agent others move head discussion contain.","estimatedTime":"9 weeks"}'

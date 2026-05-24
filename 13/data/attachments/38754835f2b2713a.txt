@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjMzLjY5NjUyMSIsInVzZXJfaWQiOiI5ZDlhN2IwOC1kZTQwLTQwOTAtYWE4YS0zMjFjYzEyMjkyMGUifQ.NjQQlLB4BWGbQHtATGGCaDj10lCJyrZDgDqxlExTS3s' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"According pressure far him.","maxScore":76,"minScore":24,"description":"Produce bag level campaign bill. Including nothing media foreign. Owner hand meeting total knowledge stuff stay.\nYeah realize drive safe.\nEnter time some card.","estimatedTime":"4 weeks","previewFileId":"1dfe529a-b2c6-4bdb-9f20-a95f25193b6e","createdByUserId":"9d9a7b08-de40-4090-aa8a-321cc122920e"}'

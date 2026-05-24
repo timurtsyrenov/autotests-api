@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjMxLjg5NzIxMSIsInVzZXJfaWQiOiI4NmU2NmYwNS0zYzUyLTQ4OWItYWFiZS1hOTVmZmQzY2UxNDAifQ.aDF-ojBaVCwKnLAnp9cBXufaiwKpG51McNHY3kYLenw' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Continue quality prepare material dream stage.","maxScore":78,"minScore":3,"description":"Decision likely agent market because city serve. For left minute write. Dinner man question relate speech say.","estimatedTime":"5 weeks","previewFileId":"af2e8729-60c6-42b8-8ae3-88375e416412","createdByUserId":"86e66f05-3c52-489b-aabe-a95ffd3ce140"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjM0LjI4MTc5NyIsInVzZXJfaWQiOiI3MWUwOGNhNC0zMjFmLTQyN2EtYTUzOS01ZmQ2ODRhZDliZTYifQ.X5cWIH9Ekd6LnafAyXiE965lqwXrWqN4xvw1ZOnIdkk' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difference audience else.","maxScore":91,"minScore":28,"description":"Politics else a low dinner street. Generation concern phone prevent them.\nCould when record close. Accept into attorney case.\nHome both share various specific size. Note money outside.","estimatedTime":"2 weeks","previewFileId":"b9eaa1a4-91eb-4d51-8170-014b1cb5831f","createdByUserId":"71e08ca4-321f-427a-a539-5fd684ad9be6"}'

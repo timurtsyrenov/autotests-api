@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/847fa511-2693-4c5d-b762-10967fca1ac4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjMxLjg5NzIxMSIsInVzZXJfaWQiOiI4NmU2NmYwNS0zYzUyLTQ4OWItYWFiZS1hOTVmZmQzY2UxNDAifQ.aDF-ojBaVCwKnLAnp9cBXufaiwKpG51McNHY3kYLenw' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Write money like pattern.","maxScore":88,"minScore":8,"description":"Sort structure first candidate life writer north. Discussion center even start. Trade similar expect lead this theory everything method.","estimatedTime":"5 weeks"}'

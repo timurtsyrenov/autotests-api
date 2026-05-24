@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjM1LjUxMjQ3MiIsInVzZXJfaWQiOiJlZmZlYmIyMC05MTNjLTRiZTctYWJmMC01YjQwZTI1MmVhOWIifQ.mjh9PK-BjUm_XWd8IfpSy9oEzJiLzbAx8mWkhLPlbOU' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Food student able eye.","maxScore":53,"minScore":24,"description":"Position side pressure color fight later so. Score ball though staff.\nMission difficult first him hospital ahead join. Professor pattern present. Question provide guy standard significant executive.","estimatedTime":"6 weeks","previewFileId":"abb840cd-02e2-4e2a-8686-0d1f42913170","createdByUserId":"effebb20-913c-4be7-abf0-5b40e252ea9b"}'

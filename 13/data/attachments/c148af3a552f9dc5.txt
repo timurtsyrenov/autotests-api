@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjM2LjA5OTc2NSIsInVzZXJfaWQiOiJmYzBkYTliNS1hODY3LTRiZDgtOGRlMS1kNGNkOWM4OTJlOTAifQ.FjaMWMehkffROEOfezhECzw-kKAwM_Bz4VNEUsN-Gy8' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Get letter above never process.","maxScore":53,"minScore":16,"description":"Structure even without. Side study possible marriage campaign information. Land feel admit within hour east.\nImportant attack finish. Investment particularly hospital major them analysis significant.","estimatedTime":"3 weeks","previewFileId":"8a198ca3-c833-4953-a32d-013007e61dc2","createdByUserId":"fc0da9b5-a867-4bd8-8de1-d4cd9c892e90"}'

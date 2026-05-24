@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjE0OjMzLjExMTc1MSIsInVzZXJfaWQiOiI5NDY4NWVmMC01OTJlLTRlNmEtOTVkZC04YzdiODUxMGQ4YjYifQ._Gi58QyIULfo0MCscaFTfgt8IqkkT1fPrNQh3U4NZNc' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Offer name discuss ball too suddenly professional.","maxScore":91,"minScore":18,"description":"How goal everybody anyone part parent. News morning serve good.\nFact onto whose TV total to language.\nControl attack any avoid choice. Billion manager risk parent.","estimatedTime":"4 weeks","previewFileId":"c01545fc-1c06-40b3-9fe5-ebdaa83df339","createdByUserId":"94685ef0-592e-4e6a-95dd-8c7b8510d8b6"}'
