@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI4OjAwLjM5NzI1MCIsInVzZXJfaWQiOiI0YzQ5YTQ4Ny0zYzE5LTQ3NzEtOTU4YS05YTlmNGUwNTAyMzIifQ.iNGDDzQTI68ET3_EvJGvE0fzW94u56OA9gb_-cBwDxw' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Just blue lay poor once senior.","maxScore":91,"minScore":6,"description":"Similar create magazine perhaps small. System individual all ball trade fine deal. Eye current few author thing culture ever space. Movie audience age organization stuff laugh I.","estimatedTime":"4 weeks","previewFileId":"f8f3b025-3886-449a-9ee3-0d0a3200d24a","createdByUserId":"4c49a487-3c19-4771-958a-9a9f4e050232"}'

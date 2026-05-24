@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/a69813f5-2c5c-4820-b617-303d95cadc2d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI3OjU2LjA5MTU3NSIsInVzZXJfaWQiOiI0ZmQzNzBmOS04NjI4LTQxNmMtODJhOS05YjFiYzk5ZWJhYmMifQ.mWOoNzK2dKZE_eQ-5-lHN3c42jmcxoXdsBNy6dRG-wU' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account enter hotel.","maxScore":62,"minScore":21,"description":"Water kid industry. Begin note meet enough such matter store. Result show board generation.\nPractice professor morning although century moment. Produce live civil phone role every close what.","estimatedTime":"7 weeks"}'

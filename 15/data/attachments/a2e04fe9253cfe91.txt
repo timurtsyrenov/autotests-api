@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI4OjAxLjA5MjM1OSIsInVzZXJfaWQiOiJlOWYwMTBkZS0wYWQxLTQzZmEtODlhNi1hYzRmZmRmM2UwOTUifQ.wR7axsyvlKhbtj6f40DR__rMaS0PsD8PyZIWYbECiDI' \
+  -H 'content-length: 446' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Behavior raise concern participant others price trip address.","maxScore":63,"minScore":13,"description":"Town sea stand mean build reduce. Enter test indicate right.\nBody pass collection. Ever product whole cost.\nTrue mind group simple then political. Water arm what sell. Far community more.","estimatedTime":"10 weeks","previewFileId":"84c457a4-03ea-48fe-87e3-cf6e55b08ce9","createdByUserId":"e9f010de-0ad1-43fa-89a6-ac4ffdf3e095"}'

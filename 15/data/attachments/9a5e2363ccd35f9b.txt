@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI3OjU3Ljc2NDEwOCIsInVzZXJfaWQiOiI1OWE0M2YxNS1iMjQ3LTQxYzYtYmNkMy04NzI1NmRmNDlmNzcifQ.BdZlirrrlbHla8_DDGtNfEbpKRkzlterf4sd0EQlaQQ' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message as face nor agent against.","maxScore":93,"minScore":14,"description":"Must score almost travel yes suddenly six. Carry ability draw phone free. Benefit human his. Necessary knowledge game hundred machine take.","estimatedTime":"9 weeks","previewFileId":"c014e455-4394-471a-bf03-1513a4da6144","createdByUserId":"59a43f15-b247-41c6-bcd3-87256df49f77"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f148bc1e-b664-4e63-a48f-8269467bd797' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI3OjU5LjA2MTI0MyIsInVzZXJfaWQiOiJkYjAyNDZhZS0wYjBjLTRkOWQtOTMxZS1iZWE1NjYzMjdlYTYifQ.GGXrUIUDQ38nF-O0cXp_cRGtoREghl143hMzwMv34sQ' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stock us team energy.","maxScore":98,"minScore":2,"orderIndex":69,"description":"See name continue magazine network coach heart.\nWithin piece you threat degree street let. Individual call yet add debate player maybe drug.","estimatedTime":"9 weeks"}'

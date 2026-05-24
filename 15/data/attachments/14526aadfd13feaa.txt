@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI3OjU4LjQxMzM3MSIsInVzZXJfaWQiOiI5NmIxNGEzNC0yYzM1LTQ4ZTQtOTY1Ny1iNTI3NzNmMWU3YTgifQ.ZCdMaXlgchtq-ozyqQnHKhg76rCcQctTa2ZpfG4cHTU' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Newspaper parent democratic second maintain.","maxScore":65,"minScore":28,"description":"Much true fall leader who cost market daughter. Land among lose tonight close situation. Almost beat easy happy I although on.\nCourt describe however individual one. Music notice property building.","estimatedTime":"3 weeks","previewFileId":"befc8b0b-60a1-48ec-be6a-9e782859e5ee","createdByUserId":"96b14a34-2c35-48e4-9657-b52773f1e7a8"}'

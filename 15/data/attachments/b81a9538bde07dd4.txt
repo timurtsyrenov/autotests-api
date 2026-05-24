@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI3OjU5Ljc1MDY1NCIsInVzZXJfaWQiOiJiOTVmOGExNC1jNDUwLTRmMDEtODMwYy02MTM5NjJlZDljNGMifQ.twa7UrKHXo1nWL8rnw3MLcYeHXubS4wgfOlHp-wJ2AM' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seven catch relate over music card.","maxScore":57,"minScore":26,"description":"Republican example attention successful spring. Those ago wait challenge career decade expect. Up not discover she spend law.\nBecause south or. Top thing growth ago cause as until east.","estimatedTime":"2 weeks","previewFileId":"46cc369a-b011-49a2-a2a7-b883c92036f4","createdByUserId":"b95f8a14-c450-4f01-830c-613962ed9c4c"}'

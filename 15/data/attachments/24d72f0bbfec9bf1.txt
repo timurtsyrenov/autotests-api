@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjI3OjU5LjA2MTI0MyIsInVzZXJfaWQiOiJkYjAyNDZhZS0wYjBjLTRkOWQtOTMxZS1iZWE1NjYzMjdlYTYifQ.GGXrUIUDQ38nF-O0cXp_cRGtoREghl143hMzwMv34sQ' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn because whom enjoy week road.","maxScore":93,"minScore":2,"description":"Lot if whom opportunity subject seem ball. Debate call make animal like toward. Ground partner feeling one entire mind.","estimatedTime":"8 weeks","previewFileId":"63304916-d3f4-4e83-adb4-b8c897365c7a","createdByUserId":"db0246ae-0b0c-4d9d-931e-bea566327ea6"}'
