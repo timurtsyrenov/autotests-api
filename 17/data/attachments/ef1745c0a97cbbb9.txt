@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjMyLjI4NDY5NCIsInVzZXJfaWQiOiI1NjBlMjEyNi01ODVjLTQyM2EtOTBmZi00NTA1MTRlMGM1NjMifQ.ZjQnksAAe3peHxLd_n4lP6vSXNrTU_NINdr6sDB59zE' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Son wall Congress idea fine may.","courseId":"3707edfa-257e-4336-876d-904d9cc8c6d4","maxScore":74,"minScore":5,"orderIndex":54,"description":"Adult mention doctor about forget seek. Nation answer American happen room again.\nPerhaps Congress government economy. Try big whom.","estimatedTime":"10 weeks"}'

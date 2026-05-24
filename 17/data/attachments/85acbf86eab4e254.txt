@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjI5LjU3ODIyOSIsInVzZXJfaWQiOiJiMWQyNzc1Yi1mMTQ5LTRmOWQtYWY2OC01MzAyNmEzZGE2YjkifQ.ie1KRktUzgtA-vjxg2jSIGRqHq6KnZvMdxuR_NiB6Qg' \
+  -H 'content-length: 343' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Recent and check eight nature give party.","maxScore":60,"minScore":14,"description":"Girl each see trip person now there. Office happy admit head point many. Letter choice push responsibility.","estimatedTime":"4 weeks","previewFileId":"e7844560-346a-414c-84db-e252109fda33","createdByUserId":"b1d2775b-f149-4f9d-af68-53026a3da6b9"}'

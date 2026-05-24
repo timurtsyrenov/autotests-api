@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjI4LjU3ODExNyIsInVzZXJfaWQiOiIyZmI2MjMyMC1hYTIwLTQ0MDItOTYyZi00NzFlNjA3YzZhOGMifQ.RcnQQRQf8e-M_6tvjP5jpDVmpNztNBt2Ke7tmYYZr_4' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially game hand western property yeah tough.","maxScore":72,"minScore":13,"description":"Adult force dark do believe. Poor response major level bed season wish. Site make scene black long his up.\nHusband of color. Nor spring power big less loss future positive.","estimatedTime":"5 weeks","previewFileId":"dd7a9f46-ac5e-44ff-b8b1-307cefe40382","createdByUserId":"2fb62320-aa20-4402-962f-471e607c6a8c"}'

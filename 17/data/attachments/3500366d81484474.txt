@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/015cbf1f-e52d-4d25-9ba3-4860dc23e313' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjI4LjU3ODExNyIsInVzZXJfaWQiOiIyZmI2MjMyMC1hYTIwLTQ0MDItOTYyZi00NzFlNjA3YzZhOGMifQ.RcnQQRQf8e-M_6tvjP5jpDVmpNztNBt2Ke7tmYYZr_4' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Phone occur majority name crime final modern unit.","maxScore":86,"minScore":29,"description":"Situation specific camera.\nTax style meeting check social science media.\nArgue give there. Yourself involve create on.","estimatedTime":"5 weeks"}'

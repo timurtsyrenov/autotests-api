@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjMzLjY0NTA3OCIsInVzZXJfaWQiOiI3NjU1NTk0ZC1kZDhlLTQxMTAtYThiYS00NDBhNjIwMDk3Y2MifQ.7VtwHlbkexgJlLkBJocYxcGi9Am8QB4lkB2QujrO6eg' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pull it sign indicate crime.","maxScore":88,"minScore":19,"description":"Section either available several. Deep seem more agree need.\nAsk out other floor physical expert. Low ahead prepare color. Check task short which.","estimatedTime":"3 weeks","previewFileId":"c14f9d59-576f-4282-9ed7-390357f8974e","createdByUserId":"7655594d-dd8e-4110-a8ba-440a620097cc"}'

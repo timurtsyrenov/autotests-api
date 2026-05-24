@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjMzLjY0NTA3OCIsInVzZXJfaWQiOiI3NjU1NTk0ZC1kZDhlLTQxMTAtYThiYS00NDBhNjIwMDk3Y2MifQ.7VtwHlbkexgJlLkBJocYxcGi9Am8QB4lkB2QujrO6eg' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical across boy blue.","courseId":"ec3fa7ee-e39e-4b91-a83b-11cc902c7f89","maxScore":51,"minScore":26,"orderIndex":14,"description":"Yourself between leave alone important fish force them. Family something wonder may.\nLarge garden behind. Resource commercial general grow. Mention language within level fund wife.","estimatedTime":"5 weeks"}'

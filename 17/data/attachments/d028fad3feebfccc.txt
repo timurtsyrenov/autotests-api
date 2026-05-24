@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjMxLjU3OTkwMiIsInVzZXJfaWQiOiJiZTM0ODYxZS1mNDZjLTRkNjgtODljOS05ZmYxY2UwMTgyOGMifQ.snhOiL9mg-N-3wCS6CdfQapN7-vT4tj1G5-Jlnz3R90' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Police ready expect whether still.","maxScore":74,"minScore":22,"description":"Part away peace. Defense hot share TV daughter catch. Food ok next stage fire few. Environmental soon rise.\nLess over begin whatever story finish traditional bank. Consider network really build.","estimatedTime":"1 weeks","previewFileId":"8570f996-2d59-4b25-9117-5e2ce90f76b7","createdByUserId":"be34861e-f46c-4d68-89c9-9ff1ce01828c"}'

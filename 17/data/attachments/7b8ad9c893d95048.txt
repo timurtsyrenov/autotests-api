@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjMwLjkyOTM3NSIsInVzZXJfaWQiOiI0OGFjMzIyNC0zM2ZlLTRiNWItOTE2Mi0yZDljZWMxYzg1MzQifQ.aPgENb-GSw54BbvkvTPz4eGPgFFwJP3nEkMHigsZ7WU' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Executive expect out ready.","maxScore":57,"minScore":20,"description":"Among two now. Charge ball price group people. Play room sometimes school.\nGovernment there he thousand factor. Rate just they relationship place order by task.","estimatedTime":"6 weeks","previewFileId":"1c5b0414-885f-4e7f-8e16-c290b91fc6d7","createdByUserId":"48ac3224-33fe-4b5b-9162-2d9cec1c8534"}'

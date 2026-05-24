@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjMwLjI3NjkwNyIsInVzZXJfaWQiOiIxODMwYjE0YS1lM2M3LTRmMmMtODg3NC1kZjc5ZmVmMGJjOTkifQ.hwt9_4TkRfG_c4CIGc474hWHgn6l10SXJJ86IoT90uc' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have model within seven affect tonight need.","maxScore":74,"minScore":2,"description":"Eat several suggest thought kid end nothing. Chance while major score watch fact term soon. Change author security close. Mouth note raise ball usually nature evidence very.","estimatedTime":"6 weeks","previewFileId":"edf73661-66de-48ed-91b7-ef5a3a40c1a4","createdByUserId":"1830b14a-e3c7-4f2c-8874-df79fef0bc99"}'

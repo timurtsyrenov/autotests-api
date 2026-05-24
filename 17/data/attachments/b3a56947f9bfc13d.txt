@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA1LTI0VDEzOjMzOjMyLjkzNDQ2MiIsInVzZXJfaWQiOiI2N2I4MWJkMy0wMzg3LTRmMWEtYTkwMC0yODJmZTJlMzBlMTUifQ.rHhksbSEFT3--xZAKbO1bFVw3mmTkOpXBC9sebZuGGc' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Month law with.","maxScore":83,"minScore":22,"description":"Coach church toward capital keep add its eye. Over first least occur order federal test. Right soldier better middle building main bank.","estimatedTime":"2 weeks","previewFileId":"03443c5f-3b1e-40ed-9bc3-1fc96f8dbc80","createdByUserId":"67b81bd3-0387-4f1a-a900-282fe2e30e15"}'
