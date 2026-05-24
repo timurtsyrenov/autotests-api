@@ -54,3 +54,6 @@ jobs:
           LLM__META__MODEL: qwen2.5-coder:7b
           LLM__META__TEMPERATURE: 0.2
           LLM__META__MAX_TOKENS: 2000
+
+          # Фикс проблемы с парсингом prompt
+          LLM__PROMPT: "{}"
